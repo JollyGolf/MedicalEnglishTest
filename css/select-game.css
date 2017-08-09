@@ -1,0 +1,282 @@
+
+
+body {
+  margin: 0px 0px 0px 0px;
+  background-image: url(../image/stardust.png);
+  color: white;
+}
+
+.display-none {
+  display: none;
+}
+
+.display-block {
+  display: block;
+}
+
+.display-flex {
+  display: flex;
+}
+
+.fa-snowflake-o {
+  color: white;
+}
+
+.select-all-game {
+  width: 90%;
+  height: 100%;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  flex-flow: row wrap;
+  align-content: space-around;
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+
+.one-game {
+  width: 350px;
+  height: 175px;
+  border-width: 2px;
+  border-style: solid;
+  border-color: white;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  background-image: url(../image/transparency.png);
+  margin-bottom: 2.5%;
+  cursor: pointer;
+}
+
+.background-circle {
+  background-image: url(../image/transparency.png);
+  border-radius: 50%;
+  height: 70px;
+  width: 70px;
+  display: flex;
+  margin: auto;
+  color: #ce0141;
+}
+
+.name-game {
+  width: 220px;
+  height: 75px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.big-letter-name {
+  font-family: DaysSansBlack;
+  font-size: 25pt;
+  color: #ffffff;
+  text-align: left;
+}
+
+.small-letter-name {
+  font-family: Trebuchet MS;
+  font-size: 15pt;
+  font-weight: bolder;
+  color: #ffffff;
+  text-align: left;
+  font-weight: lighter;
+}
+
+.one-game:hover .background-circle{
+  transform: rotate(360deg);
+  transition: 1s;
+  font-size: +20pt;
+  color: #491267;
+  width: 100px;
+  height: 100px;
+  background-color: #d2d7d1;
+}
+
+.fa-3x {
+  margin: auto;
+}
+
+/* ### */
+
+.image {
+  width: 260px;
+  height: 260px;
+}
+
+.big-image {
+  width: 500px;
+  height: 500px;
+}
+
+.small-image {
+  width: 100px;
+  height: 100px;
+}
+
+/* ### */
+
+.block-big-image {
+ margin-top: 3%;
+ display: flex;
+ flex-direction: row;
+ justify-content: center;
+ align-items: center;
+}
+
+.select-image-of-four {
+ display: flex;
+ flex-direction: row;
+ justify-content: center;
+ align-items: center;
+ flex-wrap: wrap;
+ align-content: space-around;
+ padding: 20px 20px 20px 20px;
+}
+
+.select-word {
+  font-size: 20pt;
+}
+
+.flip-container {
+  perspective: 1000;
+}
+ 
+.flip-container:hover .flipper, .flip-container.hover .flipper {
+  transform: rotateY(180deg);
+}
+ 
+.flip-container, .front, .back {
+  width: 350px;
+  height: 175px;
+  margin-bottom: 2.5%;
+}
+
+.flipper {
+  transition: 1s;
+  transform-style: preserve-3d;
+  position: relative;
+}
+
+.front, .back {
+  backface-visibility: hidden;
+  position: absolute;
+}
+
+.front {
+  z-index: 2;
+}
+
+.back {
+  transform: rotateY(180deg);
+}
+
+.padding-left-right {
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
+
+.FW-FW {
+  display: flex;
+  justify-content: row;
+  align-items: center;
+}
+
+.FW-FW-left {
+  width: 45%;
+}
+
+.FW-FW-center {
+  width: 10%;
+  text-align: center;
+  color: white;
+}
+
+.FW-FW-right {
+  width: 45%;
+}
+
+.FI-FW {
+  display: flex;
+  justify-content: column;
+  align-items: center;
+  flex-wrap: nowrap;
+}
+
+.FI-FW-left {
+  width: 20%;
+}
+
+.FI-FW-center {
+  width: 25%;
+  text-align: center;
+  color: white;
+}
+
+.FI-FW-right {
+  width: 45%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media  screen and (max-width: 400px) {
+  .one-game {
+    width: 275px;
+    height: 150px;
+  }
+
+  .background-circle {
+    height: 50px;
+    width: 50px;
+  }
+
+  .name-game {
+    width: 190px;
+    height: 50px;
+  }
+
+  .big-letter-name {
+    font-size: 18pt;
+  }
+  
+  .flip-container, .front, .back {
+    width: 275px;
+    height: 150px;
+  }
+
+  .small-letter-name {
+    font-family: Trebuchet MS;
+    font-size: 10pt;
+  }
+
+
+
+
+
+}

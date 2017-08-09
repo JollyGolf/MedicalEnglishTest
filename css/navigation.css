@@ -1,0 +1,22 @@
+h2,h3 {
+ margin: 0px;
+}
+
+.log-in-nav {
+  float: right;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-top: 0.4%;
+}
+
+.hover-border:hover {
+  border-color: green;
+  border-width: 3px;
+  transition: 0.5s;
+}
+
+.a-none {
+  text-decoration: none !important;
+}
