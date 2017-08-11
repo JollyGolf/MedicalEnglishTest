@@ -225,6 +225,17 @@ body {
   width: 45%;
 }
 
+.color-blue {
+  color: #00c2ff;
+}
+
+.color-dark-blue {
+  color: #6c0aff;
+}
+
+.color-orange {
+  color: #ff6633;
+}
 
 
 
@@ -274,9 +285,5 @@ body {
     font-family: Trebuchet MS;
     font-size: 10pt;
   }
-
-
-
-
 
 }
