@@ -52,6 +52,22 @@ body {
   cursor: pointer;
 }
 
+.flip-one-game {
+  width: 350px;
+  height: 175px;
+  border-width: 2px;
+  border-style: solid;
+  border-color: white;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  background-image: url(../image/transparency-green.png);
+  margin-bottom: 2.5%;
+  cursor: pointer;
+}
+
 .background-circle {
   background-image: url(../image/transparency.png);
   border-radius: 50%;
