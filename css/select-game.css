@@ -237,8 +237,19 @@ body {
   color: #ff6633;
 }
 
+.input-dialog {
+  width: 150px;
+  height: 30px;
+  margin-bottom: 5px;
+}
 
+#full-dialog {
+  transition: 1s;
+}
 
+#less-dialog {
+  transition: 1s;
+}
 
 
 
@@ -257,33 +268,11 @@ body {
 
 
 @media  screen and (max-width: 400px) {
-  .one-game {
-    width: 275px;
-    height: 150px;
-  }
-
-  .background-circle {
-    height: 50px;
-    width: 50px;
-  }
-
-  .name-game {
-    width: 190px;
-    height: 50px;
-  }
-
-  .big-letter-name {
-    font-size: 18pt;
-  }
-  
-  .flip-container, .front, .back {
-    width: 275px;
-    height: 150px;
-  }
-
-  .small-letter-name {
-    font-family: Trebuchet MS;
-    font-size: 10pt;
-  }
-
+  .one-game { width: 275px; height: 150px; }
+  .background-circle { height: 50px; width: 50px; }
+  .name-game { width: 190px; height: 50px; }
+  .big-letter-name { font-size: 18pt; }
+  .flip-container, .front, .back { width: 275px; height: 150px; }
+  .small-letter-name { font-family: Trebuchet MS; font-size: 10pt; }
+  .title-form-input { font-size: 12pt; text-align: justify; }
 }

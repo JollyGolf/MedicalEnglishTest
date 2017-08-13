@@ -76,51 +76,34 @@ h2,h3 {
 .empty-carousel {
   top: -20px;
 }
-
+/*
 ::-webkit-scrollbar {
   width: 0px;
 }
+*/
 
+.bg-panel {
+  background-color: #DDDDDD;
+  border-bottom: 1px solid #AAAAAA;
+  border-top: 1px solid #AAAAAA;
 
-
-
-
-
-
-
-
-@media screen and (min-width: 2200px) {
-  .h1-carousel {
-  	font-size: 90pt;
-  }
 }
 
-@media screen and (max-width: 1550px) {
-  .h1-carousel {
-  	font-size: 50pt;
-  }
-}
 
-@media screen and (max-width: 1100px) {
-  .h1-carousel {
-  	font-size: 40pt;
-  }
-}
 
-@media screen and (max-width: 900px) {
-  .h1-carousel {
-  	font-size: 30pt;
-  }
-}
 
-@media screen and (max-width: 650px) {
-  .h1-carousel {
-  	font-size: 20pt;
-  }
-}
 
-@media screen and (max-width: 450px) {
-  .h1-carousel {
-  	font-size: 15pt;
-  }
-}
+
+
+
+
+
+
+
+@media screen and (min-width: 2200px) { .h1-carousel { font-size: 90pt;}}
+@media screen and (max-width: 1550px) { .h1-carousel { font-size: 50pt;}}
+@media screen and (max-width: 1100px) { .h1-carousel { font-size: 40pt;}}
+@media screen and (max-width: 900px) { .h1-carousel { font-size: 30pt;}}
+@media screen and (max-width: 650px) { .h1-carousel { font-size: 20pt;}}
+@media screen and (max-width: 450px) { .h1-carousel { font-size: 15pt;}}
+@media screen and (max-width: 400px) { .title-form-input { font-size: 12pt; text-align: justify;}}
