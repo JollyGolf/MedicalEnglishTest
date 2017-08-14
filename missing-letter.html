@@ -141,8 +141,44 @@
       Main Content 
                     -->
 
-
-
+<div class="container title-form-input">
+  <div class="panel panel-warning">
+    <div class="panel-heading">Insert into the words the missing letters "л" or "р".</div>
+    <div class="panel-body">
+    А<input type="text" class="input-miss-letter" id="miss-letter-1">е<input type="text" class="input-miss-letter" id="miss-letter-2">гія,
+    анестезіо<input type="text" class="input-miss-letter" id="miss-letter-3">ог,
+    г<input type="text" class="input-miss-letter" id="miss-letter-4">ип,
+    к<input type="text" class="input-miss-letter" id="miss-letter-5">ючиця,
+    ку<input type="text" class="input-miss-letter" id="miss-letter-6">ак,
+    ліка<input type="text" class="input-miss-letter" id="miss-letter-7">,
+    <input type="text" class="input-miss-letter" id="miss-letter-8">ікування,
+    ни<input type="text" class="input-miss-letter" id="miss-letter-9">ка,
+    ни<input type="text" class="input-miss-letter" id="miss-letter-10">ка,
+    підбо<input type="text" class="input-miss-letter" id="miss-letter-11">іддя,
+    п<input type="text" class="input-miss-letter" id="miss-letter-12">ече,
+    по<input type="text" class="input-miss-letter" id="miss-letter-13">ік<input type="text" class="input-miss-letter" maxlength="1" id="miss-letter-14">ініка,
+    <input type="text" class="input-miss-letter" id="miss-letter-15">одимка,
+    <input type="text" class="input-miss-letter" id="miss-letter-16">от,
+    <input type="text" class="input-miss-letter" id="miss-letter-17">ука,
+    стомато<input type="text" class="input-miss-letter" id="miss-letter-18">ог,
+    ст<input type="text" class="input-miss-letter" id="miss-letter-19">ес,
+    ті<input type="text" class="input-miss-letter" id="miss-letter-20">о,
+    хво<input type="text" class="input-miss-letter" id="miss-letter-21">ий,
+    хі<input type="text" class="input-miss-letter" id="miss-letter-22">у<input type="text" class="input-miss-letter" maxlength="1" id="miss-letter-23">гія,
+    х<input type="text" class="input-miss-letter" id="miss-letter-24">ебет,
+    за<input type="text" class="input-miss-letter" id="miss-letter-25">оза.
+  </div>
+  <div class="panel-footer">
+    <div class="progress">
+      <div class="progress-bar progress-bar-success progress-bar-striped active" id="step-progress-bar" role="progress-bar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width: 0%;">
+      </div>
+    </div>
+    <div class="btn btn-warning center-block" role="button" id="button-wait"><span class="fa fa-spinner fa-2x fa-pulse"></span></div>
+    <div class="btn btn-success center-block" role="button"  id="button-continue" onclick="open_section()" style="display: none;"><span class="fa fa-check-circle fa-2x"></span></div>
+  </div>
+  </div>
+</div>
+<script type="text/javascript">function open_section(){ window.location = 'sections.html'; }</script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 <script type="text/javascript">
@@ -162,6 +198,70 @@ $('#button-continue-reg').on('click', function(){
     $('modal-window-auth').modal('toggle(slow)');
   }
 })
+</script>
+<script type="text/javascript">
+$(document).ready(function () {
+  $(".input-miss-letter").attr('maxlength', '1');    
+});
+$(".input-miss-letter").on("keydown", function() { 
+  Array.prototype.clean = function(deleteValue){
+    for (var i = 0; i < this.length; i++) {
+      if (this[i] == deleteValue) {         
+        this.splice(i, 1);
+        i--;
+      }
+    }
+    return this;
+  };
+  var ms1 = $('#miss-letter-1').val();
+  var ms2 = $('#miss-letter-2').val();
+  var ms3 = $('#miss-letter-3').val();
+  var ms4 = $('#miss-letter-4').val();
+  var ms5 = $('#miss-letter-5').val();
+  var ms6 = $('#miss-letter-6').val();
+  var ms7 = $('#miss-letter-7').val();
+  var ms8 = $('#miss-letter-8').val();
+  var ms9 = $('#miss-letter-9').val();
+  var ms10 = $('#miss-letter-10').val();
+  var ms11 = $('#miss-letter-11').val();
+  var ms12 = $('#miss-letter-12').val();
+  var ms13 = $('#miss-letter-13').val();
+  var ms14 = $('#miss-letter-14').val();
+  var ms15 = $('#miss-letter-15').val();
+  var ms16 = $('#miss-letter-16').val();
+  var ms17 = $('#miss-letter-17').val();
+  var ms18 = $('#miss-letter-18').val();
+  var ms19 = $('#miss-letter-19').val();
+  var ms20 = $('#miss-letter-20').val();
+  var ms21 = $('#miss-letter-21').val();
+  var ms22 = $('#miss-letter-22').val();
+  var ms23 = $('#miss-letter-23').val();
+  var ms24 = $('#miss-letter-24').val();
+  var ms25 = $('#miss-letter-25').val();
+  var arrms = [ ms1, ms2, ms3, ms4, ms5, ms6, ms7, ms8, ms9, ms10, ms11, ms12, ms13, ms14, ms15, ms16, ms17, ms18, ms19, ms20, ms21, ms22, ms23, ms24, ms25];
+  arrms.clean("");
+  arrms.clean(" ");
+  var count = arrms.length;
+  progress_bar = document.getElementById('step-progress-bar');
+  progress_bar.style.width = (count * 4.166666666666667) + '%';
+  if ((count == 24) || (count == 25)) {
+    var button_wait = document.getElementById('button-wait'); {
+      button_wait.style.display = "none";
+    }
+    var button_continue = document.getElementById('button-continue'); {
+      button_continue.style.display = "block";
+    }
+  }
+  else {
+    var button_wait = document.getElementById('button-wait'); {
+      button_wait.style.display = "block";
+    }
+    var button_continue = document.getElementById('button-continue'); {
+      button_continue.style.display = "none";
+    }
+  }
+});
+
 </script>
 </body>
 </html>

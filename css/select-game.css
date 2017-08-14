@@ -257,6 +257,7 @@ body {
   width: 150px;
   height: 30px;
   margin-bottom: 5px;
+  text-align: center;
 }
 
 #full-dialog {
@@ -265,6 +266,13 @@ body {
 
 #less-dialog {
   transition: 1s;
+}
+
+.input-miss-letter {
+  width: 20px;
+  height: 20px;
+  margin-bottom: 5px;
+  text-align: center;
 }
 
 

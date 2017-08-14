@@ -140,112 +140,28 @@
 <!--  
       Main Content 
                     -->
-
-<div class="container-fluid">
+                    
+<div class="container">
   <div class="row">
     <div class="col-md-12">
       <div class="select-all-game">
 
-        <div class="flip-container" ontouchstart="this.classList.toggle(\'hover\');" data-toggle="modal" data-target="#modal-choose-type-test">
-          <div class="flipper">
-            <div class="front">
-              <div class="one-game" id="id-game-1">
-  	            <div class="background-circle">
-  	              <span class="fa fa-user fa-3x icon-game"></span>
-                </div>
-  	            <div class="name-game">
-  	              <span class="big-letter-name">Person's</span>
-  	              <span class="small-letter-name">Appearance</span>
-  	            </div>
-              </div>
-            </div>
-            <div class="back">
-              <div class="flip-one-game">
-                <span class="small-letter-name center-block padding-left-right">Appearance this is person's face, his figure, clothing, a set of characteristic features of his appearance.</span>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="flip-container" ontouchstart="this.classList.toggle(\'hover\');"  data-toggle="modal" data-target="#modal-choose-type-test">
-          <div class="flipper">
-            <div class="front">
-              <div class="one-game" id="id-game-1">
-  	            <div class="background-circle">
-  	              <span class="fa fa-universal-access fa-3x icon-game"></span>
-                </div>
-  	            <div class="name-game">
-  	              <span class="big-letter-name">Body</span>
-  	              <span class="small-letter-name">Parts</span>
-  	            </div>
-              </div>
-            </div>
-            <div class="back">
-              <div class="flip-one-game">
-                <span class="small-letter-name center-block padding-left-right">Arm, eye, eyebrow, belly, leg, breast, thumb, elbow, fist, finger.</span>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="flip-container" ontouchstart="this.classList.toggle(\'hover\');" data-toggle="modal" data-target="#modal-choose-type-test">
-          <div class="flipper">
-            <div class="front">
-              <div class="one-game" id="id-game-1">
-  	            <div class="background-circle">
-  	              <span class="fa fa-heartbeat fa-3x icon-game"></span>
-                </div>
-  	            <div class="name-game">
-  	              <span class="big-letter-name">Human</span>
-  	              <span class="small-letter-name">Anatomy</span>
-  	            </div>
-              </div>
-            </div>
-            <div class="back">
-              <div class="flip-one-game">
-                <span class="small-letter-name center-block padding-left-right">Skeletal System, Muscular System, Cardiovascular System, Digestive System, Endocrine System, Integumentary System.</span>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="flip-container" ontouchstart="this.classList.toggle(\'hover\');" id="dialog-game" onclick="open_dialog_section()">
+        <div class="flip-container" ontouchstart="this.classList.toggle(\'hover\');" onclick="open_dialog_game()">
           <div class="flipper">
             <div class="front">
               <div class="one-game" id="id-game-1">
                 <div class="background-circle">
-                  <span class="fa fa-users fa-3x icon-game"></span>
+                  <span class="fa fa-user-md fa-3x icon-game"></span>
                 </div>
                 <div class="name-game">
-                  <span class="big-letter-name">Dialog</span>
-                  <span class="small-letter-name">Game</span>
+                  <span class="big-letter-name">In the</span>
+                  <span class="small-letter-name">HOSPITAL</span>
                 </div>
               </div>
             </div>
             <div class="back">
               <div class="flip-one-game">
-                <span class="small-letter-name center-block padding-left-right">Read the dialog several times, and then insert the missing words.</span>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="flip-container" ontouchstart="this.classList.toggle(\'hover\');" id="dialog-game" onclick="open_missing_letter()">
-          <div class="flipper">
-            <div class="front">
-              <div class="one-game" id="id-game-1">
-                <div class="background-circle">
-                  <span class="fa fa-chain-broken fa-3x icon-game"></span>
-                </div>
-                <div class="name-game">
-                  <span class="big-letter-name">Missing</span>
-                  <span class="small-letter-name">Letter</span>
-                </div>
-              </div>
-            </div>
-            <div class="back">
-              <div class="flip-one-game">
-                <span class="small-letter-name center-block padding-left-right">Read the dialog several times, and then insert the missing words.</span>
+                <span class="small-letter-name center-block padding-left-right">Read the dialogue several times until the time runs out, and insert the missed words.</span>
               </div>
             </div>
           </div>
@@ -255,58 +171,13 @@
     </div>
   </div>
 </div>
-<script type="text/javascript">function open_dialog_section(){ window.location = 'dialog-section.html'; }</script>
-<script type="text/javascript">function open_missing_letter(){ window.location = 'missing-letter.html'; }</script>
+
+<script type="text/javascript">function open_dialog_game(){ window.location = 'dialog-game.html'; }</script>
 
 
 
-<!--
-      Modal Window Type Test 
-                              -->
 
-<div class="modal fade" id="modal-choose-type-test" tabindex="-1">
-  <div class="modal-dialog modal-lg">
-  	<div class="modal-content">
-      <div class="modal-header">
-      	<button class="close" data-dismiss="modal"><span class="fa fa-window-close fa-2x"></span></button>
-      	<h4 class="modal-title">Change Type Test</h4>
-      </div>
-      <div class="modal-body">
-        <div class="panel-group">
 
-		  <a href="FI-OW.html" class="a-none">
-            <div class="panel panel-danger cursor-pointer hover-border">
-      	      <div class="panel-heading"><span class="fa fa-connectdevelop fa-spin fa-2x">&nbsp;&nbsp;</span>Four Image - One Word</div>
-      	      <div class="panel-body">Choose a picture that matches the word.</div>
-      	    </div>
-          </a>
-
-          <a href="OI-FW.html" class="a-none">
-      	    <div class="panel panel-info cursor-pointer hover-border">
-      	      <div class="panel-heading"><span class="fa fa-connectdevelop fa-spin fa-2x">&nbsp;&nbsp;</span>One Image - Four Word</div>
-      	      <div class="panel-body">Select one of the four words that corresponds to the image.</div>
-      	    </div>
-		  </a>
-
-		  <a href="FW-FW.html" class="a-none">
-      	    <div class="panel panel-warning cursor-pointer hover-border">
-      	      <div class="panel-heading"><span class="fa fa-connectdevelop fa-spin fa-2x">&nbsp;&nbsp;</span>Four Word - Four Word</div>
-      	      <div class="panel-body">Combine the left and right sides to get the phrase.</div>
-      	    </div>
-		  </a>
-
-		  <a href="FI-FW.html" class="a-none">
-      	    <div class="panel panel-success cursor-pointer hover-border">
-      	      <div class="panel-heading"><span class="fa fa-connectdevelop fa-spin fa-2x">&nbsp;&nbsp;</span>Four Image - Four Word</div>
-      	      <div class="panel-body">Combine the image and the corresponding word.</div>
-      	    </div>
-      	  </a>
-
-        </div>
-      </div>
-  	</div>
-  </div>
-</div>
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
@@ -328,7 +199,5 @@ $('#button-continue-reg').on('click', function(){
   }
 })
 </script>
-
-
 </body>
-</html>
+</html>                    
