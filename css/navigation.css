@@ -36,11 +36,9 @@ h2,h3 {
 
 .title-form-button {
   font-size: 16pt;
-  color: white;
 }
 .title-form-button:hover {
   font-size: 16pt;
-  color: white;
 }
 
 
@@ -89,9 +87,9 @@ h2,h3 {
 
 }
 
-
-
-
+.color-white {
+  color: white;
+}
 
 
 
