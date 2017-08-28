@@ -4,4 +4,3 @@
 <link rel="stylesheet" href="font/font.css">
 <link rel="stylesheet" href="libs/font-awesome/css/font-awesome.min.css">
 <link rel="stylesheet" href="css/navigation.css">
-<? ?>
