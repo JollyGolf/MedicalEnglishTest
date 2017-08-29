@@ -21,6 +21,11 @@
   	<div class="btn btn-primary btn-lg btn-block select-word">Twitter</div>
   	<div class="btn btn-primary btn-lg btn-block select-word">Instagram</div>
   </div>
+  <br><br>
+  <div class="btn-check-clear center-block" style="display: flex;flex-direction: row;justify-content: space-around;align-items: center;">
+    <button class="btn btn-success btn-lg btn-block FW-FW-left">Clear</button><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <button class="btn btn-warning btn-lg btn-block FW-FW-right">Check</button>
+  </div>
 </div>
 
 <?php require("parts/link-bottom.php"); ?>
