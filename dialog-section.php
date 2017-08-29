@@ -4,13 +4,13 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title></title>
-  <? require_once("parts/link-top.php"); ?>
+  <?php require_once("parts/link-top.php"); ?>
 </head>
 <body>
 
-<? require("parts/nav.php"); ?>
-<? require("parts/modal-authentication-window.php"); ?>
-<? require("parts/modal-registration-window.php"); ?>
+<?php require("parts/nav.php"); ?>
+<?php require("parts/modal-authentication-window.php"); ?>
+<?php require("parts/modal-registration-window.php"); ?>
 
 <div class="container">
   <div class="row">
@@ -44,7 +44,7 @@
 </div>
 
 <script src="js/link-next.js"></script>
-<? require("parts/link-bottom.php"); ?>
+<?php require("parts/link-bottom.php"); ?>
 <script src="js/modal-window.js"></script>
 </body>
 </html>                    

@@ -4,13 +4,13 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title></title>
-  <? require_once("parts/link-top.php"); ?>
+  <?php require_once("parts/link-top.php"); ?>
 </head>
 <body>
 
-<? require("parts/nav.php"); ?>
-<? require("parts/modal-authentication-window.php"); ?>
-<? require("parts/modal-registration-window.php"); ?>
+<?php require("parts/nav.php"); ?>
+<?php require("parts/modal-authentication-window.php"); ?>
+<?php require("parts/modal-registration-window.php"); ?>
 
 <div class="container-fluid title-form-button">
   <div class="col-md-3" id="fixed">
@@ -112,7 +112,7 @@
   </div>
 </div>
 
-<? require("parts/link-bottom.php"); ?>
+<?php require("parts/link-bottom.php"); ?>
 <script src="js/scroll-menu.js"></script>
 
 </body>
