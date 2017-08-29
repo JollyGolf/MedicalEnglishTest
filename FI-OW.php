@@ -14,7 +14,7 @@
 
 <div class="container select-image-challange">
   <div class="select-image-of-four">
-  	<div role="button" class="btn btn-success"><img src="image/icon1.png" alt="" class="img-responsive image"></div>
+  	<div role="button" class="btn btn-success"><img src="image/icon1.png" alt="" class="img-responsive image active"></div>
   	<div role="button" class="btn btn-warning"><img src="image/icon2.png" alt="" class="img-responsive image"></div>
   	<div role="button" class="btn btn-info"><img src="image/icon3.png" alt="" class="img-responsive image"></div>
   	<div role="button" class="btn btn-danger"><img src="image/icon4.png" alt="" class="img-responsive image"></div>
@@ -27,7 +27,9 @@
     <button class="btn btn-warning btn-lg btn-block FW-FW-right"><span class="fa fa-check-circle"></span> Check</button>
   </div>
 </div>
-
+<br><br>
+<div class="btn btn-danger btn-block disabled" style="cursor: default;"></div>
+<br><br>
 <?php require("parts/link-bottom.php"); ?>
 </body>
 </html>

@@ -43,7 +43,9 @@
     <button class="btn btn-warning btn-lg btn-block FW-FW-right"><span class="fa fa-check-circle"></span> Check</button>
   </div>
 </div>
-
+<br><br>
+<div class="btn btn-danger btn-block disabled" style="cursor: default;"></div>
+<br><br>
 
 <?php require("parts/link-bottom.php"); ?>
 </body>
