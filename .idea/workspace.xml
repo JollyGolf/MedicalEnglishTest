@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2afd378b-57e8-4dd5-9f52-0885f0999bd5" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml.orig" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FI-OW.php.orig" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FI-OW.php" afterPath="$PROJECT_DIR$/FI-OW.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -12,34 +15,41 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="FI-OW.php" pinned="false" current-in-tab="true">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="FI-OW.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/FI-OW.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="36">
-              <caret line="2" column="6" lean-forward="true" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
+            <state relative-caret-position="432">
+              <caret line="24" column="4" lean-forward="false" selection-start-line="24" selection-start-column="4" selection-end-line="24" selection-end-column="4" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="outputGame.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/functions/outputGame.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="270">
+              <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
               <folding>
-                <marker date="1504100673112" expanded="true" signature="481:507" ph="SELECT * FRO... game_4img_1w" />
-                <marker date="1504100673112" expanded="true" signature="774:829" ph="..." />
-                <marker date="1504100673112" expanded="true" signature="774:1697" ph="..." />
-                <marker date="1504100673112" expanded="true" signature="774:1931" ph="..." />
-                <marker date="1504100673112" expanded="true" signature="829:882" ph="..." />
-                <marker date="1504100673112" expanded="true" signature="829:941" ph="..." />
-                <marker date="1504100673112" expanded="true" signature="829:942" ph="..." />
-                <marker date="1504100673112" expanded="true" signature="829:1020" ph="..." />
-                <marker date="1504100673112" expanded="true" signature="829:1697" ph="..." />
-                <marker date="1504100673112" expanded="true" signature="1246:1330" ph="..." />
-                <marker date="1504100673112" expanded="true" signature="1332:1678" ph="..." />
-                <marker date="1504100673112" expanded="true" signature="1467:1473" ph=" " />
-                <marker date="1504100673112" expanded="true" signature="1473:1479" ph=" " />
-                <marker date="1504100673112" expanded="true" signature="1479:1485" ph=" " />
-                <marker date="1504100673112" expanded="true" signature="1485:1491" ph=" " />
-                <marker date="1504100673112" expanded="true" signature="1491:1497" ph=" " />
-                <marker date="1504100673112" expanded="true" signature="1497:1503" ph=" " />
-                <marker date="1504100673112" expanded="true" signature="1503:1509" ph=" " />
-                <marker date="1504100673112" expanded="true" signature="1509:1515" ph=" " />
-                <marker date="1504100673112" expanded="true" signature="1515:1521" ph=" " />
-                <marker date="1504100673112" expanded="true" signature="1789:1805" ph="..." />
+                <marker date="1504114829223" expanded="true" signature="206:232" ph="SELECT * FRO... game_4img_1w" />
+                <marker date="1504114829223" expanded="true" signature="617:672" ph="..." />
+                <marker date="1504114829223" expanded="true" signature="819:986" ph="..." />
+                <marker date="1504114829223" expanded="true" signature="1229:1313" ph="..." />
+                <marker date="1504114829223" expanded="true" signature="1315:1671" ph="..." />
+                <marker date="1504114829223" expanded="true" signature="1460:1466" ph=" " />
+                <marker date="1504114829223" expanded="true" signature="1466:1472" ph=" " />
+                <marker date="1504114829223" expanded="true" signature="1472:1478" ph=" " />
+                <marker date="1504114829223" expanded="true" signature="1478:1484" ph=" " />
+                <marker date="1504114829223" expanded="true" signature="1484:1490" ph=" " />
+                <marker date="1504114829223" expanded="true" signature="1490:1496" ph=" " />
+                <marker date="1504114829223" expanded="true" signature="1496:1502" ph=" " />
+                <marker date="1504114829223" expanded="true" signature="1502:1508" ph=" " />
+                <marker date="1504114829223" expanded="true" signature="1508:1514" ph=" " />
+                <marker date="1504114829223" expanded="true" signature="1782:1798" ph="..." />
+                <marker date="1504114829223" expanded="true" signature="1930:2371" ph="..." />
+                <marker date="1504114829223" expanded="true" signature="1983:2163" ph="{...}" />
+                <marker date="1504114829223" expanded="true" signature="2221:2348" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -50,16 +60,7 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding>
-                <marker date="1504094491848" expanded="true" signature="35:1001" ph="..." />
-                <marker date="1504094491848" expanded="true" signature="72:994" ph="..." />
-                <marker date="1504094491848" expanded="true" signature="103:236" ph="..." />
-                <marker date="1504094491848" expanded="true" signature="245:985" ph="..." />
-                <marker date="1504094491848" expanded="true" signature="278:568" ph="..." />
-                <marker date="1504094491848" expanded="true" signature="598:975" ph="..." />
-                <marker date="1504094491848" expanded="true" signature="609:745" ph="..." />
-                <marker date="1504094491848" expanded="true" signature="807:963" ph="..." />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
@@ -68,7 +69,7 @@
         <entry file="file://$PROJECT_DIR$/functions/sql_connect.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="342">
-              <caret line="19" column="2" lean-forward="true" selection-start-line="19" selection-start-column="2" selection-end-line="19" selection-end-column="2" />
+              <caret line="19" column="2" lean-forward="false" selection-start-line="19" selection-start-column="2" selection-end-line="19" selection-end-column="2" />
               <folding />
             </state>
           </provider>
@@ -77,12 +78,9 @@
       <file leaf-file-name="dialog-game.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/dialog-game.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="307">
+            <state relative-caret-position="1188">
               <caret line="66" column="22" lean-forward="false" selection-start-line="66" selection-start-column="22" selection-end-line="66" selection-end-column="22" />
-              <folding>
-                <element signature="n#style#0;n#div#0;n#div#0;n#div#10;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#0;n#div#10;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
@@ -113,6 +111,7 @@
         <option value="$PROJECT_DIR$/functions/FI-OW.php" />
         <option value="$PROJECT_DIR$/parts/nav.php" />
         <option value="$PROJECT_DIR$/functions/sql_connect.php" />
+        <option value="$PROJECT_DIR$/functions/outputGame.php" />
         <option value="$PROJECT_DIR$/FI-OW.php" />
       </list>
     </option>
@@ -124,7 +123,7 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="109" />
     <option name="y" value="118" />
     <option name="width" value="1344" />
@@ -146,6 +145,7 @@
     </navigator>
     <panes>
       <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -158,16 +158,10 @@
               <item name="MedicalEnglishTest" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="functions" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
-            <path>
-              <item name="MedicalEnglishTest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MedicalEnglishTest" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="parts" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -197,6 +191,8 @@
       <option name="presentableId" value="Default" />
       <updated>1504091117046</updated>
       <workItem from="1504091121974" duration="9280000" />
+      <workItem from="1504102772528" duration="1637000" />
+      <workItem from="1504112942127" duration="3058000" />
     </task>
     <task id="LOCAL-00001" summary="start">
       <created>1504091712948</created>
@@ -212,33 +208,40 @@
       <option name="project" value="LOCAL" />
       <updated>1504100882635</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="create function for output">
+      <created>1504115635419</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1504115635419</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9280000" />
+    <option name="totallyTimeSpent" value="13975000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="-4" width="1366" height="772" extended-state="6" />
+    <frame x="109" y="118" width="1368" height="780" extended-state="7" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2128788" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13181818" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32970452" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32970452" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -251,13 +254,86 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="start" />
     <MESSAGE value="output of db for game 4img_1w" />
-    <option name="LAST_COMMIT_MESSAGE" value="output of db for game 4img_1w" />
+    <MESSAGE value="create function for output" />
+    <option name="LAST_COMMIT_MESSAGE" value="create function for output" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/FI-OW.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/parts/nav.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/functions/sql_connect.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="19" column="2" lean-forward="false" selection-start-line="19" selection-start-column="2" selection-end-line="19" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dialog-game.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1188">
+          <caret line="66" column="22" lean-forward="false" selection-start-line="66" selection-start-column="22" selection-end-line="66" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/functions/FI-OW.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="3" column="2" lean-forward="false" selection-start-line="3" selection-start-column="2" selection-end-line="3" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FI-OW.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/parts/nav.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/functions/sql_connect.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="19" column="2" lean-forward="true" selection-start-line="19" selection-start-column="2" selection-end-line="19" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dialog-game.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1188">
+          <caret line="66" column="22" lean-forward="false" selection-start-line="66" selection-start-column="22" selection-end-line="66" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/functions/FI-OW.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="54">
@@ -270,64 +346,72 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1504094491848" expanded="true" signature="35:1001" ph="..." />
-            <marker date="1504094491848" expanded="true" signature="72:994" ph="..." />
-            <marker date="1504094491848" expanded="true" signature="103:236" ph="..." />
-            <marker date="1504094491848" expanded="true" signature="245:985" ph="..." />
-            <marker date="1504094491848" expanded="true" signature="278:568" ph="..." />
-            <marker date="1504094491848" expanded="true" signature="598:975" ph="..." />
-            <marker date="1504094491848" expanded="true" signature="609:745" ph="..." />
-            <marker date="1504094491848" expanded="true" signature="807:963" ph="..." />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/dialog-game.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="307">
+        <state relative-caret-position="1188">
           <caret line="66" column="22" lean-forward="false" selection-start-line="66" selection-start-column="22" selection-end-line="66" selection-end-column="22" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#10;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#10;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/functions/sql_connect.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="342">
-          <caret line="19" column="2" lean-forward="true" selection-start-line="19" selection-start-column="2" selection-end-line="19" selection-end-column="2" />
+          <caret line="19" column="2" lean-forward="false" selection-start-line="19" selection-start-column="2" selection-end-line="19" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FI-OW.php.orig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1090">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/functions/FI-OW.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="3" column="2" lean-forward="false" selection-start-line="3" selection-start-column="2" selection-end-line="3" selection-end-column="2" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/FI-OW.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="2" column="6" lean-forward="true" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
+        <state relative-caret-position="432">
+          <caret line="24" column="4" lean-forward="false" selection-start-line="24" selection-start-column="4" selection-end-line="24" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/functions/outputGame.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
           <folding>
-            <marker date="1504100673112" expanded="true" signature="481:507" ph="SELECT * FRO... game_4img_1w" />
-            <marker date="1504100673112" expanded="true" signature="774:829" ph="..." />
-            <marker date="1504100673112" expanded="true" signature="774:1697" ph="..." />
-            <marker date="1504100673112" expanded="true" signature="774:1931" ph="..." />
-            <marker date="1504100673112" expanded="true" signature="829:882" ph="..." />
-            <marker date="1504100673112" expanded="true" signature="829:941" ph="..." />
-            <marker date="1504100673112" expanded="true" signature="829:942" ph="..." />
-            <marker date="1504100673112" expanded="true" signature="829:1020" ph="..." />
-            <marker date="1504100673112" expanded="true" signature="829:1697" ph="..." />
-            <marker date="1504100673112" expanded="true" signature="1246:1330" ph="..." />
-            <marker date="1504100673112" expanded="true" signature="1332:1678" ph="..." />
-            <marker date="1504100673112" expanded="true" signature="1467:1473" ph=" " />
-            <marker date="1504100673112" expanded="true" signature="1473:1479" ph=" " />
-            <marker date="1504100673112" expanded="true" signature="1479:1485" ph=" " />
-            <marker date="1504100673112" expanded="true" signature="1485:1491" ph=" " />
-            <marker date="1504100673112" expanded="true" signature="1491:1497" ph=" " />
-            <marker date="1504100673112" expanded="true" signature="1497:1503" ph=" " />
-            <marker date="1504100673112" expanded="true" signature="1503:1509" ph=" " />
-            <marker date="1504100673112" expanded="true" signature="1509:1515" ph=" " />
-            <marker date="1504100673112" expanded="true" signature="1515:1521" ph=" " />
-            <marker date="1504100673112" expanded="true" signature="1789:1805" ph="..." />
+            <marker date="1504114829223" expanded="true" signature="206:232" ph="SELECT * FRO... game_4img_1w" />
+            <marker date="1504114829223" expanded="true" signature="617:672" ph="..." />
+            <marker date="1504114829223" expanded="true" signature="819:986" ph="..." />
+            <marker date="1504114829223" expanded="true" signature="1229:1313" ph="..." />
+            <marker date="1504114829223" expanded="true" signature="1315:1671" ph="..." />
+            <marker date="1504114829223" expanded="true" signature="1460:1466" ph=" " />
+            <marker date="1504114829223" expanded="true" signature="1466:1472" ph=" " />
+            <marker date="1504114829223" expanded="true" signature="1472:1478" ph=" " />
+            <marker date="1504114829223" expanded="true" signature="1478:1484" ph=" " />
+            <marker date="1504114829223" expanded="true" signature="1484:1490" ph=" " />
+            <marker date="1504114829223" expanded="true" signature="1490:1496" ph=" " />
+            <marker date="1504114829223" expanded="true" signature="1496:1502" ph=" " />
+            <marker date="1504114829223" expanded="true" signature="1502:1508" ph=" " />
+            <marker date="1504114829223" expanded="true" signature="1508:1514" ph=" " />
+            <marker date="1504114829223" expanded="true" signature="1782:1798" ph="..." />
+            <marker date="1504114829223" expanded="true" signature="1930:2371" ph="..." />
+            <marker date="1504114829223" expanded="true" signature="1983:2163" ph="{...}" />
+            <marker date="1504114829223" expanded="true" signature="2221:2348" ph="{...}" />
           </folding>
         </state>
       </provider>
