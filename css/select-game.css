@@ -52,6 +52,22 @@ body {
   cursor: pointer;
 }
 
+.flip-one-game {
+  width: 350px;
+  height: 175px;
+  border-width: 2px;
+  border-style: solid;
+  border-color: white;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  background-image: url(../image/transparency-green.png);
+  margin-bottom: 2.5%;
+  cursor: pointer;
+}
+
 .background-circle {
   background-image: url(../image/transparency.png);
   border-radius: 50%;
@@ -225,11 +241,43 @@ body {
   width: 45%;
 }
 
+.color-blue {
+  color: #00c2ff;
+}
 
+.color-dark-blue {
+  color: #6c0aff;
+}
 
+.color-orange {
+  color: #ff6633;
+}
 
+.input-dialog {
+  width: 150px;
+  height: 30px;
+  margin-bottom: 5px;
+  text-align: center;
+}
 
+#full-dialog {
+  transition: 1s;
+}
 
+#less-dialog {
+  transition: 1s;
+}
+
+.input-miss-letter {
+  width: 20px;
+  height: 20px;
+  margin-bottom: 5px;
+  text-align: center;
+}
+
+.margin-15px {
+  margin-top: 15px;
+}
 
 
 
@@ -246,37 +294,11 @@ body {
 
 
 @media  screen and (max-width: 400px) {
-  .one-game {
-    width: 275px;
-    height: 150px;
-  }
-
-  .background-circle {
-    height: 50px;
-    width: 50px;
-  }
-
-  .name-game {
-    width: 190px;
-    height: 50px;
-  }
-
-  .big-letter-name {
-    font-size: 18pt;
-  }
-  
-  .flip-container, .front, .back {
-    width: 275px;
-    height: 150px;
-  }
-
-  .small-letter-name {
-    font-family: Trebuchet MS;
-    font-size: 10pt;
-  }
-
-
-
-
-
+  .one-game { width: 275px; height: 150px; }
+  .background-circle { height: 50px; width: 50px; }
+  .name-game { width: 190px; height: 50px; }
+  .big-letter-name { font-size: 18pt; }
+  .flip-container, .front, .back { width: 275px; height: 150px; }
+  .small-letter-name { font-family: Trebuchet MS; font-size: 10pt; }
+  .title-form-input { font-size: 12pt; text-align: justify; }
 }
