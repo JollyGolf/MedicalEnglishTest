@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2afd378b-57e8-4dd5-9f52-0885f0999bd5" name="Default" comment="start" />
+    <list default="true" id="2afd378b-57e8-4dd5-9f52-0885f0999bd5" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -11,13 +13,33 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="FI-OW.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="FI-OW.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/FI-OW.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="414">
-              <caret line="23" column="16" lean-forward="false" selection-start-line="23" selection-start-column="16" selection-end-line="23" selection-end-column="16" />
+            <state relative-caret-position="36">
+              <caret line="2" column="6" lean-forward="true" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
               <folding>
-                <marker date="1504093692401" expanded="true" signature="480:506" ph="SELECT * FRO... game_4img_1w" />
+                <marker date="1504100673112" expanded="true" signature="481:507" ph="SELECT * FRO... game_4img_1w" />
+                <marker date="1504100673112" expanded="true" signature="774:829" ph="..." />
+                <marker date="1504100673112" expanded="true" signature="774:1697" ph="..." />
+                <marker date="1504100673112" expanded="true" signature="774:1931" ph="..." />
+                <marker date="1504100673112" expanded="true" signature="829:882" ph="..." />
+                <marker date="1504100673112" expanded="true" signature="829:941" ph="..." />
+                <marker date="1504100673112" expanded="true" signature="829:942" ph="..." />
+                <marker date="1504100673112" expanded="true" signature="829:1020" ph="..." />
+                <marker date="1504100673112" expanded="true" signature="829:1697" ph="..." />
+                <marker date="1504100673112" expanded="true" signature="1246:1330" ph="..." />
+                <marker date="1504100673112" expanded="true" signature="1332:1678" ph="..." />
+                <marker date="1504100673112" expanded="true" signature="1467:1473" ph=" " />
+                <marker date="1504100673112" expanded="true" signature="1473:1479" ph=" " />
+                <marker date="1504100673112" expanded="true" signature="1479:1485" ph=" " />
+                <marker date="1504100673112" expanded="true" signature="1485:1491" ph=" " />
+                <marker date="1504100673112" expanded="true" signature="1491:1497" ph=" " />
+                <marker date="1504100673112" expanded="true" signature="1497:1503" ph=" " />
+                <marker date="1504100673112" expanded="true" signature="1503:1509" ph=" " />
+                <marker date="1504100673112" expanded="true" signature="1509:1515" ph=" " />
+                <marker date="1504100673112" expanded="true" signature="1515:1521" ph=" " />
+                <marker date="1504100673112" expanded="true" signature="1789:1805" ph="..." />
               </folding>
             </state>
           </provider>
@@ -26,9 +48,18 @@
       <file leaf-file-name="nav.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/parts/nav.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="18">
-              <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-              <folding />
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding>
+                <marker date="1504094491848" expanded="true" signature="35:1001" ph="..." />
+                <marker date="1504094491848" expanded="true" signature="72:994" ph="..." />
+                <marker date="1504094491848" expanded="true" signature="103:236" ph="..." />
+                <marker date="1504094491848" expanded="true" signature="245:985" ph="..." />
+                <marker date="1504094491848" expanded="true" signature="278:568" ph="..." />
+                <marker date="1504094491848" expanded="true" signature="598:975" ph="..." />
+                <marker date="1504094491848" expanded="true" signature="609:745" ph="..." />
+                <marker date="1504094491848" expanded="true" signature="807:963" ph="..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -36,18 +67,18 @@
       <file leaf-file-name="sql_connect.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/functions/sql_connect.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="324">
-              <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+            <state relative-caret-position="342">
+              <caret line="19" column="2" lean-forward="true" selection-start-line="19" selection-start-column="2" selection-end-line="19" selection-end-column="2" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="dialog-game.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="dialog-game.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/dialog-game.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="307">
-              <caret line="66" column="22" lean-forward="true" selection-start-line="66" selection-start-column="22" selection-end-line="66" selection-end-column="22" />
+              <caret line="66" column="22" lean-forward="false" selection-start-line="66" selection-start-column="22" selection-end-line="66" selection-end-column="22" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#div#0;n#div#10;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#0;n#div#0;n#div#10;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -60,7 +91,7 @@
         <entry file="file://$PROJECT_DIR$/functions/FI-OW.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="54">
-              <caret line="3" column="2" lean-forward="true" selection-start-line="3" selection-start-column="2" selection-end-line="3" selection-end-column="2" />
+              <caret line="3" column="2" lean-forward="false" selection-start-line="3" selection-start-column="2" selection-end-line="3" selection-end-column="2" />
               <folding />
             </state>
           </provider>
@@ -69,6 +100,11 @@
     </leaf>
   </component>
   <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="RediaUa &lt;artem.redia@gmail.com&gt;" />
+      </list>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
@@ -76,8 +112,8 @@
       <list>
         <option value="$PROJECT_DIR$/functions/FI-OW.php" />
         <option value="$PROJECT_DIR$/parts/nav.php" />
-        <option value="$PROJECT_DIR$/FI-OW.php" />
         <option value="$PROJECT_DIR$/functions/sql_connect.php" />
+        <option value="$PROJECT_DIR$/FI-OW.php" />
       </list>
     </option>
   </component>
@@ -160,7 +196,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1504091117046</updated>
-      <workItem from="1504091121974" duration="3161000" />
+      <workItem from="1504091121974" duration="9280000" />
     </task>
     <task id="LOCAL-00001" summary="start">
       <created>1504091712948</created>
@@ -169,11 +205,18 @@
       <option name="project" value="LOCAL" />
       <updated>1504091712948</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="output of db for game 4img_1w">
+      <created>1504100882635</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1504100882635</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3161000" />
+    <option name="totallyTimeSpent" value="9280000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="-4" width="1366" height="772" extended-state="6" />
@@ -207,7 +250,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="start" />
-    <option name="LAST_COMMIT_MESSAGE" value="start" />
+    <MESSAGE value="output of db for game 4img_1w" />
+    <option name="LAST_COMMIT_MESSAGE" value="output of db for game 4img_1w" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -217,44 +261,73 @@
     <entry file="file://$PROJECT_DIR$/functions/FI-OW.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="54">
-          <caret line="3" column="2" lean-forward="true" selection-start-line="3" selection-start-column="2" selection-end-line="3" selection-end-column="2" />
+          <caret line="3" column="2" lean-forward="false" selection-start-line="3" selection-start-column="2" selection-end-line="3" selection-end-column="2" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/parts/nav.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="18">
-          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FI-OW.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="414">
-          <caret line="23" column="16" lean-forward="false" selection-start-line="23" selection-start-column="16" selection-end-line="23" selection-end-column="16" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1504093692401" expanded="true" signature="480:506" ph="SELECT * FRO... game_4img_1w" />
+            <marker date="1504094491848" expanded="true" signature="35:1001" ph="..." />
+            <marker date="1504094491848" expanded="true" signature="72:994" ph="..." />
+            <marker date="1504094491848" expanded="true" signature="103:236" ph="..." />
+            <marker date="1504094491848" expanded="true" signature="245:985" ph="..." />
+            <marker date="1504094491848" expanded="true" signature="278:568" ph="..." />
+            <marker date="1504094491848" expanded="true" signature="598:975" ph="..." />
+            <marker date="1504094491848" expanded="true" signature="609:745" ph="..." />
+            <marker date="1504094491848" expanded="true" signature="807:963" ph="..." />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/functions/sql_connect.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/dialog-game.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="307">
-          <caret line="66" column="22" lean-forward="true" selection-start-line="66" selection-start-column="22" selection-end-line="66" selection-end-column="22" />
+          <caret line="66" column="22" lean-forward="false" selection-start-line="66" selection-start-column="22" selection-end-line="66" selection-end-column="22" />
           <folding>
             <element signature="n#style#0;n#div#0;n#div#0;n#div#10;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#div#0;n#div#10;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/functions/sql_connect.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="19" column="2" lean-forward="true" selection-start-line="19" selection-start-column="2" selection-end-line="19" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FI-OW.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="2" column="6" lean-forward="true" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
+          <folding>
+            <marker date="1504100673112" expanded="true" signature="481:507" ph="SELECT * FRO... game_4img_1w" />
+            <marker date="1504100673112" expanded="true" signature="774:829" ph="..." />
+            <marker date="1504100673112" expanded="true" signature="774:1697" ph="..." />
+            <marker date="1504100673112" expanded="true" signature="774:1931" ph="..." />
+            <marker date="1504100673112" expanded="true" signature="829:882" ph="..." />
+            <marker date="1504100673112" expanded="true" signature="829:941" ph="..." />
+            <marker date="1504100673112" expanded="true" signature="829:942" ph="..." />
+            <marker date="1504100673112" expanded="true" signature="829:1020" ph="..." />
+            <marker date="1504100673112" expanded="true" signature="829:1697" ph="..." />
+            <marker date="1504100673112" expanded="true" signature="1246:1330" ph="..." />
+            <marker date="1504100673112" expanded="true" signature="1332:1678" ph="..." />
+            <marker date="1504100673112" expanded="true" signature="1467:1473" ph=" " />
+            <marker date="1504100673112" expanded="true" signature="1473:1479" ph=" " />
+            <marker date="1504100673112" expanded="true" signature="1479:1485" ph=" " />
+            <marker date="1504100673112" expanded="true" signature="1485:1491" ph=" " />
+            <marker date="1504100673112" expanded="true" signature="1491:1497" ph=" " />
+            <marker date="1504100673112" expanded="true" signature="1497:1503" ph=" " />
+            <marker date="1504100673112" expanded="true" signature="1503:1509" ph=" " />
+            <marker date="1504100673112" expanded="true" signature="1509:1515" ph=" " />
+            <marker date="1504100673112" expanded="true" signature="1515:1521" ph=" " />
+            <marker date="1504100673112" expanded="true" signature="1789:1805" ph="..." />
           </folding>
         </state>
       </provider>
