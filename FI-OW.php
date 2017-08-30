@@ -12,6 +12,7 @@
 <?php require("parts/modal-authentication-window.php"); ?>
 <?php require("parts/modal-registration-window.php"); ?>
 
+
 <?php
 require_once __DIR__."/functions/sql_connect.php";
 global $mysqli;
@@ -23,6 +24,7 @@ while(($row = $answer->fetch_assoc()) != false )
 }
 var_dump($data);
 ?>
+
 
 <div class="container select-image-challange">
   <div class="select-image-of-four">

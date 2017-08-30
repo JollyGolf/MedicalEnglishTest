@@ -1,6 +1,4 @@
-<?php
-//подключаю бд к этому файлу потому что он везде подключен
-?>
+
 <nav class="navbar navbar-default">
   <div class="container name-brand">
   	<div class="navbar-header">
