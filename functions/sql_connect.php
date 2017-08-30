@@ -9,7 +9,7 @@ function connectDB()
         echo"Connection DataBase error : ".$mysqli->connect_error."\r\n";
         exit;
     }
-    $mysqli->query("SET NAMES 'utf-8_general_ci'");
+    mysqli_set_charset($mysqli, "utf8");
 }
 function closeDB()
 {
