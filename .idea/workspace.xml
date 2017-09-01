@@ -2,22 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2afd378b-57e8-4dd5-9f52-0885f0999bd5" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FW-FW .php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OI-FW .php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/b_FI-FW .php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/b_FI-OW .php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/h_FI-FW .php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/h_FI-OW .php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/h_FW-FW .php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/h_OI-FW .php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pa_FI-FW.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pa_FI-OW.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pa_FW-FW.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pa_OI-FW.php" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/FI-FW.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/FI-OW.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/FW-FW.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/OI-FW.php" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/b_FW-FW .php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/b_OI-FW .php" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/FI-OW.php.orig" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/FW-FW .php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/OI-FW .php" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -91,8 +80,8 @@
       <file leaf-file-name="modal-type-test.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/parts/modal-type-test.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-17">
-              <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+            <state relative-caret-position="469">
+              <caret line="43" column="8" lean-forward="true" selection-start-line="43" selection-start-column="8" selection-end-line="43" selection-end-column="8" />
               <folding />
             </state>
           </provider>
@@ -202,7 +191,7 @@
       <workItem from="1504102772528" duration="1637000" />
       <workItem from="1504112942127" duration="4075000" />
       <workItem from="1504175220689" duration="603000" />
-      <workItem from="1504258564178" duration="1122000" />
+      <workItem from="1504258564178" duration="1305000" />
     </task>
     <task id="LOCAL-00001" summary="start">
       <created>1504091712948</created>
@@ -225,16 +214,23 @@
       <option name="project" value="LOCAL" />
       <updated>1504115635419</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="create forms for categories">
+      <created>1504259721675</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1504259721675</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16717000" />
+    <option name="totallyTimeSpent" value="16900000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="109" y="118" width="1368" height="780" extended-state="6" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13636364" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13636364" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -264,7 +260,8 @@
     <MESSAGE value="start" />
     <MESSAGE value="output of db for game 4img_1w" />
     <MESSAGE value="create function for output" />
-    <option name="LAST_COMMIT_MESSAGE" value="create function for output" />
+    <MESSAGE value="create forms for categories" />
+    <option name="LAST_COMMIT_MESSAGE" value="create forms for categories" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -577,8 +574,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/parts/modal-type-test.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-17">
-          <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+        <state relative-caret-position="469">
+          <caret line="43" column="8" lean-forward="true" selection-start-line="43" selection-start-column="8" selection-end-line="43" selection-end-column="8" />
           <folding />
         </state>
       </provider>
