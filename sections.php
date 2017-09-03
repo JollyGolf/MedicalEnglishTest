@@ -17,7 +17,7 @@
     <div class="col-md-12">
       <div class="select-all-game">
 
-        <div class="flip-container" ontouchstart="this.classList.toggle(\'hover\');" data-toggle="modal" data-target="#modal-choose-type-test">
+        <div class="flip-container" ontouchstart="this.classList.toggle(\'hover\');" data-toggle="modal" data-target="#pa_modal-choose-type-test">
           <div class="flipper">
             <div class="front">
               <div class="one-game" id="id-game-1">
@@ -38,7 +38,7 @@
           </div>
         </div>
 
-        <div class="flip-container" ontouchstart="this.classList.toggle(\'hover\');"  data-toggle="modal" data-target="#modal-choose-type-test">
+        <div class="flip-container" ontouchstart="this.classList.toggle(\'hover\');"  data-toggle="modal" data-target="#b_modal-choose-type-test">
           <div class="flipper">
             <div class="front">
               <div class="one-game" id="id-game-1">
@@ -59,7 +59,7 @@
           </div>
         </div>
 
-        <div class="flip-container" ontouchstart="this.classList.toggle(\'hover\');" data-toggle="modal" data-target="#modal-choose-type-test">
+        <div class="flip-container" ontouchstart="this.classList.toggle(\'hover\');" data-toggle="modal" data-target="#h_modal-choose-type-test">
           <div class="flipper">
             <div class="front">
               <div class="one-game" id="id-game-1">
@@ -130,7 +130,9 @@
 
 
 
-<?php require("parts/modal-type-test.php"); ?>
+<?php require("categories/Persons_Appereance/pa_modal-type-test.php"); ?>
+<?php require("categories/Human_Anatomy/h_modal-type-test.php"); ?>
+<?php require("categories/Body_Parts/b_modal-type-test.php"); ?>
 <script src="js/link-next.js"></script>
 <?php require("parts/link-bottom.php"); ?>
 <script src="js/modal-window.js"></script>

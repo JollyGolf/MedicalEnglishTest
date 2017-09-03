@@ -1,3 +1,4 @@
+
 <nav class="navbar navbar-default">
   <div class="container name-brand">
   	<div class="navbar-header">
@@ -21,4 +22,3 @@
   	</div>
   </div>
 </nav>
-<?php ?>
