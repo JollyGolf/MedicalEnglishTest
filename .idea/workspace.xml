@@ -2,9 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2afd378b-57e8-4dd5-9f52-0885f0999bd5" name="Default" comment="">
+<<<<<<< HEAD
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/b_FW-FW .php" afterPath="$PROJECT_DIR$/b_FW-FW .php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/navigation.css" afterPath="$PROJECT_DIR$/css/navigation.css" />
+=======
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/b_FW-FW .php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/b_OI-FW .php" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/FI-OW.php.orig" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/FW-FW .php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/OI-FW .php" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+>>>>>>> 522fba930c2d75b960ad985904e00c3dd9bec8cc
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -47,7 +56,11 @@
       <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.php">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state relative-caret-position="324">
+=======
+            <state relative-caret-position="216">
+>>>>>>> 522fba930c2d75b960ad985904e00c3dd9bec8cc
               <caret line="18" column="17" lean-forward="true" selection-start-line="18" selection-start-column="17" selection-end-line="18" selection-end-column="17" />
               <folding />
             </state>
@@ -67,7 +80,11 @@
       <file leaf-file-name="sections.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sections.php">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state relative-caret-position="630">
+=======
+            <state relative-caret-position="-1403">
+>>>>>>> 522fba930c2d75b960ad985904e00c3dd9bec8cc
               <caret line="35" column="20" lean-forward="true" selection-start-line="35" selection-start-column="20" selection-end-line="35" selection-end-column="20" />
               <folding />
             </state>
@@ -77,8 +94,13 @@
       <file leaf-file-name="modal-type-test.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/parts/modal-type-test.php">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state relative-caret-position="273">
               <caret line="32" column="73" lean-forward="true" selection-start-line="32" selection-start-column="73" selection-end-line="32" selection-end-column="73" />
+=======
+            <state relative-caret-position="469">
+              <caret line="43" column="8" lean-forward="true" selection-start-line="43" selection-start-column="8" selection-end-line="43" selection-end-column="8" />
+>>>>>>> 522fba930c2d75b960ad985904e00c3dd9bec8cc
               <folding />
             </state>
           </provider>
@@ -133,6 +155,11 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+<<<<<<< HEAD
+=======
+      <pane id="Scratches" />
+      <pane id="Scope" />
+>>>>>>> 522fba930c2d75b960ad985904e00c3dd9bec8cc
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -154,8 +181,11 @@
           <select />
         </subPane>
       </pane>
+<<<<<<< HEAD
       <pane id="Scratches" />
       <pane id="Scope" />
+=======
+>>>>>>> 522fba930c2d75b960ad985904e00c3dd9bec8cc
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -188,8 +218,12 @@
       <workItem from="1504102772528" duration="1637000" />
       <workItem from="1504112942127" duration="4075000" />
       <workItem from="1504175220689" duration="603000" />
+<<<<<<< HEAD
       <workItem from="1504258564178" duration="1937000" />
       <workItem from="1504353266065" duration="76000" />
+=======
+      <workItem from="1504258564178" duration="1305000" />
+>>>>>>> 522fba930c2d75b960ad985904e00c3dd9bec8cc
     </task>
     <task id="LOCAL-00001" summary="start">
       <created>1504091712948</created>
@@ -219,6 +253,7 @@
       <option name="project" value="LOCAL" />
       <updated>1504259721675</updated>
     </task>
+<<<<<<< HEAD
     <task id="LOCAL-00005" summary="fix previous commit">
       <created>1504259901488</created>
       <option name="number" value="00005" />
@@ -231,11 +266,22 @@
   </component>
   <component name="TimeTrackingManager">
     <option name="totallyTimeSpent" value="17608000" />
+=======
+    <option name="localTasksCounter" value="5" />
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="16900000" />
+>>>>>>> 522fba930c2d75b960ad985904e00c3dd9bec8cc
   </component>
   <component name="ToolWindowManager">
     <frame x="109" y="118" width="1368" height="780" extended-state="6" />
     <layout>
+<<<<<<< HEAD
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13863637" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+=======
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13636364" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+>>>>>>> 522fba930c2d75b960ad985904e00c3dd9bec8cc
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -266,14 +312,19 @@
     <MESSAGE value="output of db for game 4img_1w" />
     <MESSAGE value="create function for output" />
     <MESSAGE value="create forms for categories" />
+<<<<<<< HEAD
     <MESSAGE value="fix previous commit" />
     <option name="LAST_COMMIT_MESSAGE" value="fix previous commit" />
+=======
+    <option name="LAST_COMMIT_MESSAGE" value="create forms for categories" />
+>>>>>>> 522fba930c2d75b960ad985904e00c3dd9bec8cc
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/functions/outputGame.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
@@ -310,6 +361,9 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/parts/nav.php">
+=======
+    <entry file="file://$PROJECT_DIR$/FI-OW.php">
+>>>>>>> 522fba930c2d75b960ad985904e00c3dd9bec8cc
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -317,6 +371,7 @@
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/sections.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="630">
@@ -334,6 +389,8 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/FI-OW.php" />
+=======
+>>>>>>> 522fba930c2d75b960ad985904e00c3dd9bec8cc
     <entry file="file://$PROJECT_DIR$/functions/outputGame.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
@@ -393,7 +450,18 @@
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/FI-OW.php" />
+=======
+    <entry file="file://$PROJECT_DIR$/FI-OW.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+>>>>>>> 522fba930c2d75b960ad985904e00c3dd9bec8cc
     <entry file="file://$PROJECT_DIR$/functions/outputGame.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
@@ -453,7 +521,18 @@
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/FI-OW.php" />
+=======
+    <entry file="file://$PROJECT_DIR$/FI-OW.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+>>>>>>> 522fba930c2d75b960ad985904e00c3dd9bec8cc
     <entry file="file://$PROJECT_DIR$/parts/nav.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -486,7 +565,18 @@
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/FI-OW.php" />
+=======
+    <entry file="file://$PROJECT_DIR$/FI-OW.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+>>>>>>> 522fba930c2d75b960ad985904e00c3dd9bec8cc
     <entry file="file://$PROJECT_DIR$/parts/nav.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -519,7 +609,17 @@
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/FI-OW.php.orig" />
+=======
+    <entry file="file://$PROJECT_DIR$/FI-OW.php.orig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1090">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+>>>>>>> 522fba930c2d75b960ad985904e00c3dd9bec8cc
     <entry file="file://$PROJECT_DIR$/functions/sql_connect.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="342">
@@ -544,7 +644,18 @@
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/FI-OW.php" />
+=======
+    <entry file="file://$PROJECT_DIR$/FI-OW.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+>>>>>>> 522fba930c2d75b960ad985904e00c3dd9bec8cc
     <entry file="file://$PROJECT_DIR$/functions/outputGame.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
@@ -574,7 +685,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="324">
+=======
+        <state relative-caret-position="216">
+>>>>>>> 522fba930c2d75b960ad985904e00c3dd9bec8cc
           <caret line="18" column="17" lean-forward="true" selection-start-line="18" selection-start-column="17" selection-end-line="18" selection-end-column="17" />
           <folding />
         </state>
@@ -590,7 +705,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/sections.php">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="630">
+=======
+        <state relative-caret-position="-1403">
+>>>>>>> 522fba930c2d75b960ad985904e00c3dd9bec8cc
           <caret line="35" column="20" lean-forward="true" selection-start-line="35" selection-start-column="20" selection-end-line="35" selection-end-column="20" />
           <folding />
         </state>
@@ -598,8 +717,13 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/parts/modal-type-test.php">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="273">
           <caret line="32" column="73" lean-forward="true" selection-start-line="32" selection-start-column="73" selection-end-line="32" selection-end-column="73" />
+=======
+        <state relative-caret-position="469">
+          <caret line="43" column="8" lean-forward="true" selection-start-line="43" selection-start-column="8" selection-end-line="43" selection-end-column="8" />
+>>>>>>> 522fba930c2d75b960ad985904e00c3dd9bec8cc
           <folding />
         </state>
       </provider>

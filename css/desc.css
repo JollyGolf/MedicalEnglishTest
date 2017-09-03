@@ -1,0 +1,6 @@
+.description_for_game {
+  font-size: 15pt;
+  text-align: center;
+}
+
+@media screen and (max-width: 450px) { .discription_for_game { font-size: 10pt;}}
