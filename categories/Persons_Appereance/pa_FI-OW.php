@@ -43,13 +43,13 @@
     </div>
   </div>
 </nav>
-<?php require("../../parts/modal-authentication-window.php"); ?>
-<?php require("../../parts/modal-registration-window.php"); ?>
+
+
 
 
 <?php
-    require_once __DIR__."../../functions/outputGame.php";
-    outputGame('4i_1m', 2);
+    require_once __DIR__."/../../functions/outputGame.php";
+    outputGame('person_apperance', 2, 'game_4i_1w');
 ?>
 
 

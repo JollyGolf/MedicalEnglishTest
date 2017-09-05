@@ -1,14 +1,16 @@
 <?php
 require_once __DIR__."/sql_connect.php";
-function outputGame($type, $count)
+function outputGame($type, $count, $table)
 {
     global $mysqli;
     connectDB();
 
-    switch($type)
+
+    switch($table)
     {
-        case '4i_1m':
-            $answer = $mysqli->query("SELECT * FROM game_4img_1w");
+        case 'game_4i_1w':
+
+            $answer = $mysqli->query("SELECT * FROM $table WHERE type = '$type'");
             while(($row = $answer->fetch_assoc()) != false )
             {
                 $data[] = $row;
@@ -28,7 +30,7 @@ function outputGame($type, $count)
 
                 for($j = 0; $j < 4; $j++)
                 {
-                    echo "<div role=\"button\" class=\"btn btn-success btn-check\"><img src=\"" . $url[$i][$j] . "\" alt=\"\" class=\"img-responsive image active\">
+                    echo "<div role=\"button\" class=\"btn btn-success btn-check\"><img src=\"../../" . $url[$i][$j] . "\" alt=\"\" class=\"img-responsive image active\">
                     <input type=\"checkbox\" class=\"absolute checkbox-FI-OW\"></div>";
                 }
                 echo"<br><br>
@@ -55,10 +57,42 @@ function outputGame($type, $count)
             </body>
             </html>";
 
-            } //end 1-st case
+
+            }
+            break;//end 1-st case
+
+        case 'game_1i_4w':
+            $answer = $mysqli->query("SELECT * FROM $table WHERE type = '$type'");
+            while(($row = $answer->fetch_assoc()) != false )
+            {
+                $data[] = $row;
+            }
+
+            for($i = 0 ; $i < $count; $i++)
+            {
+                var_dump($data[$i]['url']);
+                echo "<div class=\"container\">
+                  <div class=\"choose-word-please\">
+                    <div role=\"button\" class=\"btn btn-success center-block\"><img src=\"../../".$data[$i]["url"]."\" class=\"big-image img-responsive center-block\"></div>
+                    <br><br>
+                    <div class=\"btn btn-primary btn-lg btn-block select-word\">".$data[$i]["w1"]."</div>
+                    <div class=\"btn btn-primary btn-lg btn-block select-word\">".$data[$i]["w2"]."</div>
+                    <div class=\"btn btn-primary btn-lg btn-block select-word\">".$data[$i]["w3"]."</div>
+                    <div class=\"btn btn-primary btn-lg btn-block select-word\">".$data[$i]["w4"]."</div>
+                  </div>
+                  <br><br>
+                  <div class=\"btn-check-clear center-block\" style=\"display: flex;flex-direction: row;justify-content: space-around;align-items: center;\">
+                    <button class=\"btn btn-success btn-lg btn-block FW-FW-left\"><span class=\"fa fa-shower\"></span> Clear</button><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <button class=\"btn btn-warning btn-lg btn-block FW-FW-right\"><span class=\"fa fa-check-circle\"></span> Check</button>
+                  </div>
+                </div>
+                <br><br>
+                <div class=\"btn btn-danger btn-block disabled\" style=\"cursor: default;\"></div>
+                <br><br>-->";
+            } break;//end 2-st case
 
 
-    }
+    } //end switch
 
 }
 
