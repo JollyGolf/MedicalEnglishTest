@@ -17,7 +17,7 @@
     <div class="col-md-12">
       <div class="select-all-game">
 
-        <div class="flip-container" ontouchstart="this.classList.toggle(\'hover\');" onclick="open_dialog_game()">
+        <div class="flip-container" ontouchstart="this.classList.toggle(\'hover\');" onclick="in_the_hospital()">
           <div class="flipper">
             <div class="front">
               <div class="one-game" id="id-game-1">
@@ -42,7 +42,7 @@
     </div>
   </div>
 </div>
-
+<script type="text/javascript">function in_the_hospital(){ window.location = 'game_dialog/in-the-hospital.php'; }</script>
 <script src="js/link-next.js"></script>
 <?php require("parts/link-bottom.php"); ?>
 <script src="js/modal-window.js"></script>
