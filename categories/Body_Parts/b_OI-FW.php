@@ -41,7 +41,7 @@
 
 <?php
 require_once __DIR__."/../../functions/outputGame.php";
-outputGame('body', 1, 'game_1i_4w');
+outputGame('body_parts', 3, 'game_1i_4w');
 ?>
 
 

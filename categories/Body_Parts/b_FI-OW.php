@@ -48,11 +48,9 @@
 
 
 <?php
-
-
+require_once __DIR__."/../../functions/outputGame.php";
+outputGame('body_parts', 3, 'game_4i_1w');
 ?>
-
-
 
 
 

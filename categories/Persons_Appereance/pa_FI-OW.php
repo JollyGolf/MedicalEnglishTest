@@ -49,7 +49,7 @@
 
 <?php
     require_once __DIR__."/../../functions/outputGame.php";
-    outputGame('person_apperance', 2, 'game_4i_1w');
+    outputGame('person_apperance', 3, 'game_4i_1w');
 ?>
 
 

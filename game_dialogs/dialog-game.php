@@ -4,13 +4,13 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title></title>
-  <?php require_once("parts/link-top.php"); ?>
+  <?php require_once("../parts/link-top.php"); ?>
 </head>
 <body>
 
-<?php require("parts/nav.php"); ?>
-<?php require("parts/modal-authentication-window.php"); ?>
-<?php require("parts/modal-registration-window.php"); ?>
+<?php require("../parts/nav.php"); ?>
+<?php require("../parts/modal-authentication-window.php"); ?>
+<?php require("../parts/modal-registration-window.php"); ?>
                     
 <div class="container title-form-input" id="full-dialog">
   <div class="panel panel-primary">
@@ -68,9 +68,9 @@
 	</div>
   </div>
 </div>
-<script src="js/link-next.js"></script>
-<script src="js/dialog-game.js"></script>
-<?php require("parts/link-bottom.php"); ?>
-<script src="js/modal-window.js"></script>
+<script src="../../js/link-next.js"></script>
+<script src="../../js/dialog-game.js"></script>
+<?php require("../parts/link-bottom.php"); ?>
+<script src="../../js/modal-window.js"></script>
 </body>
 </html>

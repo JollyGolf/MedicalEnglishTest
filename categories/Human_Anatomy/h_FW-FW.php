@@ -50,7 +50,7 @@
 
 require_once __DIR__."/../../functions/outputGame.php";
 
-outputGame('human_anatomy', 1, 'game_4w_4w');
+outputGame('human_anatomy', 3, 'game_4w_4w');
 ?>
 
 <?php require("../../parts/link-bottom.php"); ?>

@@ -92,8 +92,8 @@ function outputGame($type, $count, $table)
             //end 2-st case
 
         case 'game_4w_4w':
-            echo"xuy";
-            $answer = $mysqli->query("SELECT * FROM $table WHERE type = '$type' ORDER  BY rand() LIMIT $count");var_dump($answer);
+
+            $answer = $mysqli->query("SELECT * FROM $table WHERE type = '$type' ORDER  BY rand() LIMIT $count");
             while(($row = $answer->fetch_assoc()) != false )
             {
                 $data[] = $row;
@@ -147,7 +147,7 @@ function outputGame($type, $count, $table)
             {
 
                 $url[] = explode(" ", $data[$key]["url"]);
-                $words[] = explode(" ", $data[$key]["words"]);
+                $words[] = explode(",", $data[$key]["words"]);
             }
             for($i = 0; $i < count($data); $i++) {
                 echo "   <div class=\"container\">

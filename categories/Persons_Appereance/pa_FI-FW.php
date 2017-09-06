@@ -40,7 +40,7 @@
 <?php
 require_once __DIR__."/../../functions/outputGame.php";
 
-outputGame('person_apperance', 1, 'game_4i_4w');
+outputGame('person_apperance', 3, 'game_4i_4w');
 ?>
 <!--
 <div class="container">
