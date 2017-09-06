@@ -49,14 +49,17 @@
   </div>
   <br><br>
   <div class="btn-check-clear center-block" style="display: flex;flex-direction: row;justify-content: space-around;align-items: center;">
-    <button class="btn btn-success btn-lg btn-block FW-FW-left"><span class="fa fa-shower"></span> Clear</button><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-    <button class="btn btn-warning btn-lg btn-block FW-FW-right"><span class="fa fa-check-circle"></span> Check</button>
+    <button class="btn btn-success btn-lg btn-block"><span class="fa fa-shower"></span> Refresh</button><br>
+    
   </div>
 </div>
 <br><br>
 <div class="btn btn-danger btn-block disabled" style="cursor: default;"></div>
 <br><br>
+<button class="btn btn-warning btn-lg btn-block FW-FW-right"><span class="fa fa-check-circle"></span> Check</button>
 <?php require("../../parts/link-bottom.php"); ?>
-
+<script type="text/javascript">
+  
+</script>
 </body>
 </html>

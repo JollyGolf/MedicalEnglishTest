@@ -48,8 +48,8 @@
 
 
 <?php
-    require_once __DIR__."../../functions/outputGame.php";
-    outputGame('4i_1m', 2);
+
+
 ?>
 
 

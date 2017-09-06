@@ -17,7 +17,7 @@
     <div class="col-md-12">
       <div class="select-all-game">
 
-        <div class="flip-container" ontouchstart="this.classList.toggle(\'hover\');" onclick="open_dialog_game()">
+        <div class="flip-container" ontouchstart="this.classList.toggle(\'hover\');" onclick="in_the_hospital()">
           <div class="flipper">
             <div class="front">
               <div class="one-game" id="id-game-1">

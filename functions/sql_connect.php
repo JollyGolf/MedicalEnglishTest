@@ -9,7 +9,11 @@ function connectDB()
         echo"Connection DataBase error : ".$mysqli->connect_error."\r\n";
         exit;
     }
-    mysqli_set_charset($mysqli, "utf8");
+    else{
+        mysqli_set_charset($mysqli, "utf8");
+        return 1;
+    }
+
 }
 function closeDB()
 {
