@@ -42,7 +42,7 @@
     </div>
   </div>
 </div>
-
+<script type="text/javascript">function in_the_hospital(){ window.location = 'game_dialog/in-the-hospital.php'; }</script>
 <script src="js/link-next.js"></script>
 <?php require("parts/link-bottom.php"); ?>
 <script src="js/modal-window.js"></script>

@@ -4,13 +4,42 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title></title>
-  <?php require_once("parts/link-top.php"); ?>
+  <link rel="stylesheet" href="../css/select-game.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+  <link rel="stylesheet" href="../font/font.css">
+  <link rel="stylesheet" href="../libs/font-awesome/css/font-awesome.min.css">
+  <link rel="stylesheet" href="../css/navigation.css">
+  <link rel="stylesheet" href="../css/desc.css">
 </head>
 <body>
 
-<?php require("parts/nav.php"); ?>
-<?php require("parts/modal-authentication-window.php"); ?>
-<?php require("parts/modal-registration-window.php"); ?>
+<nav class="navbar navbar-default">
+  <div class="container name-brand">
+  	<div class="navbar-header">
+  	  <a href="../index.php" class="navbar-brand text-success"><h3><span class="text-info">ENGLISH IN MEDICINE</span></h3></a>
+  	</div>
+  	<div>
+  	  <ul class="nav navbar-nav">
+  	  	<li><a href="../index.php"><h3><span class="text-primary">Home</span></h1></a></li>
+  	  	<li><a href="../sections.php"><h3><span class="text-primary">Sections</span></h1></a></li>
+  	  	<li><a href="../vocabulary.php"><h3><span class="text-primary">Vocabluary</span></h1></a></li>
+  	  </ul>
+  	  <div class="log-in-nav">
+  	    <a>
+  	      <span class="fa fa-address-book fa-3x cursor-pointer" data-toggle="modal" data-target="#modal-window-auth"></span>
+  	    </a>
+  	    <input type="text" class="btn btn-primary">
+  	    <a>
+  	      <span class="fa fa-address-book-o fa-3x fa-flip-horizontal cursor-pointer" data-toggle="modal" data-target="#modal-window-reg"></span>
+  	    </a>
+  	  </div>
+  	</div>
+  </div>
+</nav>
+
+<?php require("../parts/modal-authentication-window.php"); ?>
+<?php require("../parts/modal-registration-window.php"); ?>
                     
 <div class="container title-form-input" id="full-dialog">
   <div class="panel panel-primary">
@@ -68,9 +97,9 @@
 	</div>
   </div>
 </div>
-<script src="js/link-next.js"></script>
-<script src="js/dialog-game.js"></script>
-<?php require("parts/link-bottom.php"); ?>
-<script src="js/modal-window.js"></script>
+<script src="../js/link-next.js"></script>
+<script src="../js/dialog-game.js"></script>
+<?php require("../parts/link-bottom.php"); ?>
+<script src="../js/modal-window.js"></script>
 </body>
 </html>
