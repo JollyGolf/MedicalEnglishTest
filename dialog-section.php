@@ -25,8 +25,8 @@
                   <span class="fa fa-user-md fa-3x icon-game"></span>
                 </div>
                 <div class="name-game">
-                  <span class="big-letter-name">In the</span>
-                  <span class="small-letter-name">HOSPITAL</span>
+                  <span class="big-letter-name">In the HOSPITAL</span>
+
                 </div>
               </div>
             </div>

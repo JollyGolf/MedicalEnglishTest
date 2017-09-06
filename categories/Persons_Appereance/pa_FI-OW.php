@@ -5,21 +5,14 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title></title>
   <link rel="stylesheet" href="../../css/select-game.css">
-  <?php require_once("../../parts/link-top.php"); ?>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
   <link rel="stylesheet" href="../../font/font.css">
   <link rel="stylesheet" href="../../libs/font-awesome/css/font-awesome.min.css">
   <link rel="stylesheet" href="../../css/navigation.css">
-  <style>
-    .checkbox-FI-OW {
-      width: 20px;
-      height: 20px;
-      border-radius: 50%;
-      background-color: white;
-    }
-  </style>
+  <link rel="stylesheet" href="../../css/desc.css">
 </head>
 <body>
-
 <nav class="navbar navbar-default">
   <div class="container name-brand">
     <div class="navbar-header">
@@ -43,31 +36,13 @@
     </div>
   </div>
 </nav>
-
-
-
-
 <?php
     require_once __DIR__."/../../functions/outputGame.php";
-    outputGame('person_apperance', 2, 'game_4i_1w');
+    outputGame('person_apperance', 3, 'game_4i_1w');
 ?>
-
-
-
-
-
-
+<button class="btn btn-warning btn-lg btn-block FW-FW-right" style="font-size: 17pt;"><span class="fa fa-check-circle"></span> Check</button>
+<br>
 <?php require("../../parts/link-bottom.php"); ?>
-
-<script type="text/javascript">
-$('.btn-check').on('click', function() {
-  $(this).closest('.select-image-of-four').find('input:checkbox').prop('checked', false);
-  $(this).find('input').prop('checked', true);
-});
-
-$('.btn-clear').on('click', function() {
-  $('.btn-check').closest('.select-image-of-four').find('input:checkbox').prop('checked', false);
-});
-</script>
+<script type="text/javascript" src="../../js/FI-OW.js"></script>
 </body>
 </html>

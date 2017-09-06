@@ -37,8 +37,13 @@
 </nav>
 <?php require("../../parts/modal-authentication-window.php"); ?>
 <?php require("../../parts/modal-registration-window.php"); ?>
+<?php
 
-<div class="container">
+require_once __DIR__."/../../functions/outputGame.php";
+
+outputGame('human_anatomy', 3, 'game_1i_4w');
+?>
+<!--<div class="container">
   <div class="choose-word-please">
   	<div role="button" class="btn btn-success center-block"><img src="../../image/icon2.png" class="big-image img-responsive center-block"></div>
   	<br><br>
@@ -55,7 +60,7 @@
 </div>
 <br><br>
 <div class="btn btn-danger btn-block disabled" style="cursor: default;"></div>
-<br><br>
+<br><br>-->
 <?php require("../../parts/link-bottom.php"); ?>
 
 </body>

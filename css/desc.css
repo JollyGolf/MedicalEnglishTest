@@ -3,4 +3,11 @@
   text-align: center;
 }
 
+.batton-blue {
+  background-image: url(../image/transparency-blue.png);
+}
+
+.btn-check-clear {
+  width: 400px;
+}
 @media screen and (max-width: 450px) { .discription_for_game { font-size: 10pt;}}

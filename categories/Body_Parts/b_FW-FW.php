@@ -45,7 +45,11 @@
     <div class="panel-heading description_for_game">Select the word on the left side, then select the right word on the right side, then a couple of these words will disappear. Do the same until all the words on the left and right disappear. If you think you made a mistake, click the "Refresh" button. </div>
   </div>
 </div>
-
+<?php
+require_once __DIR__."/../../functions/outputGame.php";
+outputGame('body_parts', 3, 'game_4w_4w');
+?>
+<!--
 <div class="container">
   <span class="after-append"></span>
   <div class="FW-FW">
@@ -76,7 +80,7 @@
 <div class="btn btn-danger btn-block disabled" style="cursor: default;"></div>
 <br><br>
 
-<button class="btn btn-warning btn-lg btn-block FW-FW-right btn-check"><span class="fa fa-check-circle"></span> Check</button>
+<button class="btn btn-warning btn-lg btn-block FW-FW-right btn-check"><span class="fa fa-check-circle"></span> Check</button>-->
 
 <?php require("../../parts/link-bottom.php"); ?>
 
