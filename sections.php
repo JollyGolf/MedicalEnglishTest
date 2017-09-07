@@ -101,7 +101,7 @@
           </div>
         </div>
 
-        <div class="flip-container" ontouchstart="this.classList.toggle(\'hover\');" id="dialog-game" onclick="open_missing_letter()">
+        <div class="flip-container" ontouchstart="this.classList.toggle(\'hover\');" id="letter-game" onclick="open_section_letter()">
           <div class="flipper">
             <div class="front">
               <div class="one-game" id="id-game-1">
@@ -116,7 +116,7 @@
             </div>
             <div class="back">
               <div class="flip-one-game">
-                <span class="small-letter-name center-block padding-left-right">Read the dialog several times, and then insert the missing words.</span>
+                <span class="small-letter-name center-block padding-left-right">Insert the missing letters.</span>
               </div>
             </div>
           </div>
@@ -129,7 +129,7 @@
 
 
 
-
+<script type="text/javascript">function open_section_letter(){ window.location = 'letter-section.php'; }</script>
 <?php require("categories/Persons_Appereance/pa_modal-type-test.php"); ?>
 <?php require("categories/Human_Anatomy/h_modal-type-test.php"); ?>
 <?php require("categories/Body_Parts/b_modal-type-test.php"); ?>
