@@ -4,15 +4,19 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title></title>
-  <?php require_once("parts/link-top.php"); ?>
+  <?php require_once("parts/link-top.php");  ?>
 </head>
 <body>
 
 <?php require("parts/nav.php"); ?>
 <?php require("parts/modal-authentication-window.php"); ?>
-<?php require("parts/modal-registration-window.php"); ?>
+<?php require("parts/modal-registration-window.php");?>
 
-<div class="container title-form-input">
+<?php require_once __DIR__."/functions/outputMissingLetters.php";
+outputMissingLetters("лр");
+?>
+
+<!--<div class="container title-form-input">
   <div class="panel panel-warning">
     <div class="panel-heading">Insert into the words the missing letters "л" or "р".</div>
     <div class="panel-body">
@@ -37,8 +41,9 @@
     хво<input type="text" class="input-miss-letter" id="miss-letter-21">ий,
     хі<input type="text" class="input-miss-letter" id="miss-letter-22">у<input type="text" class="input-miss-letter" maxlength="1" id="miss-letter-23">гія,
     х<input type="text" class="input-miss-letter" id="miss-letter-24">ебет,
-    за<input type="text" class="input-miss-letter" id="miss-letter-25">оза.
-  </div>
+    за<input type="text" class="input-miss-letter" id="miss-letter-25">оза.-->
+<!--  </div>
+
   <div class="panel-footer">
     <div class="progress">
       <div class="progress-bar progress-bar-success progress-bar-striped active" id="step-progress-bar" role="progress-bar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width: 0%;">
@@ -48,7 +53,7 @@
     <div class="btn btn-success center-block" role="button"  id="button-continue" onclick="open_section()" style="display: none;"><span class="fa fa-check-circle fa-2x"></span></div>
   </div>
   </div>
-</div>
+</div>-->
 <script src="js/link-next.js"></script>
 <?php require("parts/link-bottom.php"); ?>
 <script src="js/modal-window.js"></script>
