@@ -44,7 +44,10 @@
 <div class="container title-form-input" id="full-dialog">
   <div class="panel panel-primary">
     <div class="panel-heading">Read the Dialog several times</div>
-    <div class="panel-body">Лікар: Доброго ранку! Що Вас турбує?</div>
+      <?php require_once "../functions/outputDialog.php";
+      outputDialog("In the hospital");
+      ?>
+<!--   <div class="panel-body">Лікар: Доброго ранку! Що Вас турбує?</div>
     <div class="panel-body bg-panel">Пацієнт: Доброго ранку! Мене турбує головний біль, слабкість, біль
 у області серця.</div>
 	<div class="panel-body">Лікар: Як довго Ви перебуваєте у такому стані?</div>
@@ -65,7 +68,7 @@
 	  	<div class="progress-bar progress-bar-default progress-bar-striped active" role="progress-bar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width: 0%;" id="flex-progress-bar">
 	  	</div>
 	  </div>
-	  <!--<div class="btn btn-success center-block" id="button-continue" onclick="closeDialog()"><span class="fa fa-arrow-circle-right fa-2x"></span></div>-->
+	<div class="btn btn-success center-block" id="button-continue" onclick="closeDialog()"><span class="fa fa-arrow-circle-right fa-2x"></span></div>
 	</div>
   </div>
 </div>
@@ -87,7 +90,7 @@
 знов до мене. Після того, як я подивлюся результати рентгену, скажу
 як далі Вам <input type="text" class="input-dialog">.</div>
 	<div class="panel-body bg-panel">Пацієнт: Дякую, <input type="text" class="input-dialog">. До побачення!</div>
-	<div class="panel-body">Лікар: До побачення!</div>
+	<div class="panel-body">Лікар: До побачення!</div>-->
 	<div class="panel-footer">
 	  <div class="progress">
 	  	<div class="progress-bar progress-bar-info progress-bar-striped active" role="progress-bar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width: 100%;">
