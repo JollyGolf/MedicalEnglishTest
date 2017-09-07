@@ -302,3 +302,144 @@ $('.left').on('click', function left_side(){
   })
   $('.left').off('click',left_side);
 });
+
+
+
+
+
+$('.btn-check-clear').on('click', function refresh_all(){
+  $('.left').removeClass('one-krop-bg-green').removeClass('one-krop-bg-blue').removeClass('one-krop-bg-red').removeClass('one-krop-bg-yellow');
+  $('.right').removeClass('one-krop-bg-green').removeClass('one-krop-bg-blue').removeClass('one-krop-bg-red').removeClass('one-krop-bg-yellow');
+  $('.left').on('click', function left_side(){
+    $('.left').on('click', function(){
+      if( ($(this) !== del_left) ) {
+        $(this).off('click', left_side);
+      }
+    });
+    var del_left = $(this);
+    $(this).addClass('one-krop-bg-green');
+    $('.right').one('click', function right_side(){
+      var del_right = $(this);
+      $(this).addClass('one-krop-bg-green');
+      $(this).off("click", ".right", right_side);
+      $('.right').off('click', right_side);
+      $('.left').on('click', function left_side(){
+        $('.left').on('click', function(){
+          if( ($(this) !== del_left) ) {
+            $(this).off('click', left_side);
+          }
+        });
+        var del_left = $(this);
+        $(this).addClass('one-krop-bg-red');
+        $('.right').on('click', function right_side(){
+          var del_right = $(this);
+          $(this).addClass('one-krop-bg-red');
+          $(this).off("click", ".right", right_side);
+          $('.right').off('click', right_side);
+          $('.left').on('click', function left_side(){
+            $('.left').on('click', function(){
+              if( ($(this) !== del_left) ) {
+                $(this).off('click', left_side);
+              }
+            });
+            var del_left = $(this);
+            $(this).addClass('one-krop-bg-blue');
+            $('.right').on('click', function right_side(){
+              var del_right = $(this);
+              $(this).addClass('one-krop-bg-blue');
+              $(this).off("click", ".right", right_side);
+              $('.right').off('click', right_side);
+              $('.left').on('click', function left_side(){
+                $('.left').on('click', function(){
+                  if( ($(this) !== del_left) ) {
+                    $(this).off('click', left_side);
+                  }
+                });
+                var del_left = $(this);
+                $(this).addClass('one-krop-bg-yellow');
+                $('.right').on('click', function right_side(){
+                  var del_right = $(this);
+                  $(this).addClass('one-krop-bg-yellow');
+                  $(this).off("click", ".right", right_side); 
+                  $('.right').off('click', right_side);
+                });
+                $('.left').off('click',left_side);
+              });
+            });
+            $('.left').off('click',left_side);
+          });
+        });
+        $('.left').off('click',left_side);
+      });
+    });
+    $('.left').off('click',left_side);
+  });
+});
+
+
+
+
+$('.left').on('click', function left_side(){
+  $('.left').on('click', function(){
+    if( ($(this) !== del_left) ) {
+      $(this).off('click', left_side);
+    }
+  });
+  var del_left = $(this);
+  $(this).addClass('one-krop-bg-green');
+  $('.right').one('click', function right_side(){
+    var del_right = $(this);
+    $(this).addClass('one-krop-bg-green');
+    $(this).off("click", ".right", right_side);
+    $('.right').off('click', right_side);
+    $('.left').on('click', function left_side(){
+      $('.left').on('click', function(){
+        if( ($(this) !== del_left) ) {
+          $(this).off('click', left_side);
+        }
+      });
+      var del_left = $(this);
+      $(this).addClass('one-krop-bg-red');
+      $('.right').on('click', function right_side(){
+        var del_right = $(this);
+        $(this).addClass('one-krop-bg-red');
+        $(this).off("click", ".right", right_side);
+        $('.right').off('click', right_side);
+        $('.left').on('click', function left_side(){
+          $('.left').on('click', function(){
+            if( ($(this) !== del_left) ) {
+              $(this).off('click', left_side);
+            }
+          });
+          var del_left = $(this);
+          $(this).addClass('one-krop-bg-blue');
+          $('.right').on('click', function right_side(){
+            var del_right = $(this);
+            $(this).addClass('one-krop-bg-blue');
+            $(this).off("click", ".right", right_side);
+            $('.right').off('click', right_side);
+            $('.left').on('click', function left_side(){
+              $('.left').on('click', function(){
+                if( ($(this) !== del_left) ) {
+                  $(this).off('click', left_side);
+                }
+              });
+              var del_left = $(this);
+              $(this).addClass('one-krop-bg-yellow');
+              $('.right').on('click', function right_side(){
+                var del_right = $(this);
+                $(this).addClass('one-krop-bg-yellow');
+                $(this).off("click", ".right", right_side); 
+                $('.right').off('click', right_side);
+              });
+              $('.left').off('click',left_side);
+            });
+          });
+          $('.left').off('click',left_side);
+        });
+      });
+      $('.left').off('click',left_side);
+    });
+  });
+  $('.left').off('click',left_side);
+});

@@ -68,17 +68,66 @@ body {
   cursor: pointer;
 }
 
+.one-focus {
+  width: 520px;
+  height: 520px;
+  border-width: 2px;
+  border-style: solid;
+  border-color: white;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  background-image: url(../image/transparency.png);
+}
+
 .one-krop-bg-red {
   background-image: url(../image/transparency-red.png);
 }
 
 .one-krop-bg-green {
-  background-image: url(../image/transparency-super-green.png);
+  background-image: url(../image/transparency-green.png);
+}
+
+.one-krop-bg-blue {
+  background-image: url(../image/transparency-blue.png);
+}
+
+.one-krop-bg-yellow {
+  background-image: url(../image/transparency-yellow.png);
+}
+
+.one-krop-bg-grey {
+  background-image: url(../image/transparency.png);
+}
+
+.one-krop-bg-super-grey {
+  background-color: #353535;
 }
 
 .one-button {
   width: 400px;
   height: 50px;
+  border-width: 2px;
+  border-style: solid;
+  border-color: white;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #353535;
+  cursor: pointer;
+  text-align: center;
+  color: white;
+  margin: auto;
+}
+
+.one-image {
+  width: 130px;
+  height: 130px;
   border-width: 2px;
   border-style: solid;
   border-color: white;
@@ -251,6 +300,7 @@ body {
 
 .FW-FW-left {
   width: 45%;
+  transition: 3s;
 }
 
 .FW-FW-center {
@@ -261,6 +311,7 @@ body {
 
 .FW-FW-right {
   width: 45%;
+  transition: 3s;
 }
 
 .FI-FW {
@@ -322,8 +373,8 @@ body {
   margin-top: 15px;
 }
 
-.br {
-  height: 2.5%;
+.space-place {
+  height: 7px;
 }
 
 
@@ -348,5 +399,6 @@ body {
   .small-letter-name { font-family: Trebuchet MS; font-size: 10pt; }
   .title-form-input { font-size: 12pt; text-align: justify; }
 }
-@media screen and (max-width: 768px) { .one-krop { width: 200px; height: 200px;} .img-res { width: 170px; height: 170px; }}
-@media screen and (max-width: 555px) { .one-krop { width: 100px; height: 100px;} .img-res { width: 75px; height: 75px; }}
+@media screen and (max-width: 768px) { .one-krop { width: 200px; height: 200px;} .img-res { width: 170px; height: 170px;}}
+@media screen and (max-width: 555px) { .one-krop { width: 100px; height: 100px;} .img-res { width: 75px; height: 75px;} .one-focus { width: 320px; height: 320px;} #delete-media { display: none;}}
+@media screen and (max-width: 433px) { .one-button { width: 300px;}}

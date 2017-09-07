@@ -11,6 +11,12 @@
   <link rel="stylesheet" href="../../libs/font-awesome/css/font-awesome.min.css">
   <link rel="stylesheet" href="../../css/navigation.css">
   <link rel="stylesheet" href="../../css/desc.css">
+  <style>
+    .fw-fw { font-size: 17pt; height: 40px; }
+    @media screen and (max-width: 1000px) { .one-button { width: 200px;}}
+    @media screen and (max-width: 500px) { .one-button { width: 140px; height: 35px;} .fw-fw { font-size: 12pt; height: 35px;}
+    @media screen and (max-width: 360px) { .one-button { width: 100px; height: 35px;} .fw-fw { font-size: 10pt; height: 30px;}
+  </style>
 </head>
 <body>
 <nav class="navbar navbar-default">
@@ -36,48 +42,9 @@
     </div>
   </div>
 </nav>
-<?php require("../../parts/modal-authentication-window.php"); ?>
-<?php require("../../parts/modal-registration-window.php"); ?>
-<?php
-require_once __DIR__."/../../functions/outputGame.php";
-outputGame('person_apperance', 3, 'game_4w_4w');
-?>
-<!--<div class="container-fluid">
-  <div class="panel panel-info">
-    <div class="panel-heading description_for_game">Select the word on the left side, then select the right word on the right side, then a couple of these words will disappear. Do the same until all the words on the left and right disappear. If you think you made a mistake, click the "Refresh" button. </div>
-  </div>
-</div>
-<div class="container">
-  <span class="after-append"></span>
-  <div class="FW-FW">
-    <div class="FW-FW-left">
-      <div class="btn btn-primary btn-lg btn-block select-word left">Facebook</div>
-      <div class="btn btn-primary btn-lg btn-block select-word left">VKontacte</div>
-      <div class="btn btn-primary btn-lg btn-block select-word left">Twitter</div>
-      <div class="btn btn-primary btn-lg btn-block select-word left">Instagram</div>
-    </div>
-    <div class="FW-FW-center">
-      <span class="after-append-two"></span>
-      <span class="fa fa-code-fork fa-3x fa-pulse center"></span>
-    </div>
-    <div class="FW-FW-right">
-      <div class="btn btn-primary btn-lg btn-block select-word right">Facebook</div>
-      <div class="btn btn-primary btn-lg btn-block select-word right">VKontacte</div>
-      <div class="btn btn-primary btn-lg btn-block select-word right">Twitter</div>
-      <div class="btn btn-primary btn-lg btn-block select-word right">Instagram</div>
-    </div>
-  </div><br><br>
-  <div class="btn-check-clear center-block" style="display: flex;flex-direction: row;justify-content: space-around;align-items: center;">
-    <button class="btn btn-success btn-lg btn-block center-block btn-clear">
-      <span class="fa fa-shower"></span> Refresh
-    </button><br>
-  </div>
-</div>
-<br><br>
-<div class="btn btn-danger btn-block disabled" style="cursor: default;"></div>
-<br><br>
-<button class="btn btn-warning btn-lg btn-block btn-check"><span class="fa fa-check-circle"></span> Check</button>-->
+<?php require_once __DIR__."/../../functions/outputGame.php"; outputGame('person_apperance', 3, 'game_4w_4w'); ?>
+<button class="btn btn-warning btn-lg btn-block FW-FW-right btn-check"><span class="fa fa-check-circle"></span> Check</button>
 <?php require("../../parts/link-bottom.php"); ?>
-<script type="text/javascript" src="../../js/blyadstvo.js"></script>
+<script type="text/javascript" src="../../js/FW-FW.js"></script>
 </body>
 </html>

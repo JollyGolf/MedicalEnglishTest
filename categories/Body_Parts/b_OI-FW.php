@@ -5,13 +5,14 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title></title>
   <link rel="stylesheet" href="../../css/select-game.css">
-  <?php require_once("../../parts/link-top.php"); ?>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
   <link rel="stylesheet" href="../../font/font.css">
   <link rel="stylesheet" href="../../libs/font-awesome/css/font-awesome.min.css">
   <link rel="stylesheet" href="../../css/navigation.css">
+  <link rel="stylesheet" href="../../css/desc.css">
 </head>
 <body>
-
 <nav class="navbar navbar-default">
   <div class="container name-brand">
     <div class="navbar-header">
@@ -35,17 +36,9 @@
     </div>
   </div>
 </nav>
-<?php require("../../parts/modal-authentication-window.php"); ?>
-<?php require("../../parts/modal-registration-window.php");
-?>
-
-<?php
-require_once __DIR__."/../../functions/outputGame.php";
-outputGame('body_parts', 3, 'game_1i_4w');
-?>
-
-
+<?php require_once __DIR__."/../../functions/outputGame.php"; outputGame('body_parts', 3, 'game_1i_4w'); ?>
+<button class="btn btn-warning btn-lg btn-block FW-FW-right"><span class="fa fa-check-circle"></span> Check</button>
 <?php require("../../parts/link-bottom.php"); ?>
-
+<script type="text/javascript" src="../../js/OI-FW.js"></script>
 </body>
 </html>

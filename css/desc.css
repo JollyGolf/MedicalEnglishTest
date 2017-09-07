@@ -8,6 +8,7 @@
 }
 
 .btn-check-clear {
-  width: 400px;
+  max-width: 400px;
 }
 @media screen and (max-width: 450px) { .discription_for_game { font-size: 10pt;}}
+@media screen and (max-width: 433px) { .btn-check-clear { width: 300px; }}

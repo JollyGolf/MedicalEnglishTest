@@ -36,10 +36,7 @@
     </div>
   </div>
 </nav>
-<?php
-    require_once __DIR__."/../../functions/outputGame.php";
-    outputGame('person_apperance', 3, 'game_4i_1w');
-?>
+<?php require_once __DIR__."/../../functions/outputGame.php"; outputGame('person_apperance', 3, 'game_4i_1w'); ?>
 <button class="btn btn-warning btn-lg btn-block FW-FW-right" style="font-size: 17pt;"><span class="fa fa-check-circle"></span> Check</button>
 <br>
 <?php require("../../parts/link-bottom.php"); ?>

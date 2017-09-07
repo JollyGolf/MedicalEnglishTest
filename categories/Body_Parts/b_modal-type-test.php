@@ -22,13 +22,6 @@
       	    </div>
 		  </a>
 
-		  <a href="categories/Body_Parts/b_FW-FW.php" class="a-none">
-      	    <div class="panel panel-warning cursor-pointer hover-border">
-      	      <div class="panel-heading"><span class="fa fa-connectdevelop fa-spin fa-2x">&nbsp;&nbsp;</span>Four Word - Four Word</div>
-      	      <div class="panel-body">Combine the left and right sides to get the phrase.</div>
-      	    </div>
-		  </a>
-
 		  <a href="categories/Body_Parts/b_FI-FW.php" class="a-none">
       	    <div class="panel panel-success cursor-pointer hover-border">
       	      <div class="panel-heading"><span class="fa fa-connectdevelop fa-spin fa-2x">&nbsp;&nbsp;</span>Four Image - Four Word</div>
