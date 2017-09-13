@@ -26,7 +26,8 @@ function outputGame($type, $count, $table)
             for($i = 0; $i < count($data); $i++)
             {
                 echo "<div class=\"container select-image-challange\">
-                  <div class=\"select-image-of-four\">";
+                  <div class=\"reading on array\" style=\"font-size: 0pt;\"><span class=\"type\">".$type.",</span><span class=\"type-game\">game_4i_1w,</span></div>
+                  <div class=\"select-image-of-four ".$type."\">";
                 for($j = 0; $j < count($url[$i]); $j++) 
                 {
                 echo "<div role=\"button\" class=\"one-krop one-krop-bg-red btn-check\"><img src=\"../../" . $url[$i][$j] . "\" alt=\"\" class=\"img-responsive image active img-res\">
@@ -36,10 +37,11 @@ function outputGame($type, $count, $table)
               <div class=\"btn-block\"></div>
               <div class=\"center-block  select-word blue-button one-button\">".$data[$i]["word"]."</div>
               <div class=\"btn-block\"></div>
+              <!--
               <div class=\"btn-check-clear center-block \" style=\"display: flex;flex-direction: row;justify-content: space-around;align-items: center;\">
                 <button class=\"btn btn-success btn-lg btn-block FW-FW-left btn-clear\"><span class=\"fa fa-shower\" style=\"font-size: 17pt;\"></span> <span style=\"font-size: 17pt;\">Refresh</span></button><br>
                 <br><br><br><br>
-              </div>
+              </div>-->
             </div>
             <div class=\"btn-block btn btn-success disabled\" style=\"cursor: default;\"></div>
             <br><br>
@@ -60,18 +62,22 @@ function outputGame($type, $count, $table)
             for($i = 0 ; $i < count($data); $i++)
             {
                 echo "<div class=\"container\">
+                <div class=\"reading on array\" style=\"font-size: 0pt;\"><span class=\"type\">".$type.",</span><span class=\"type-game\">game_1i_4w,</span></div>
                   <div class=\"choose-word-please\">
                     <div role=\"button\" class=\"one-focus center-block\"><div class=\"space-place\" id=\"delete-media\"></div><img src=\"../../".$data[$i]["url"]."\" class=\" img-responsive center-block\" style=\"margin: auto;\"></div>
                     <div class=\"space-place\"></div><div class=\"space-place\"></div>
-                    <div class=\"center-block select-word blue-button one-button\">".$data[$i]["w1"]."</div><div class=\"space-place\"></div>
-                    <div class=\"center-block select-word blue-button one-button\">".$data[$i]["w2"]."</div><div class=\"space-place\"></div>
-                    <div class=\"center-block select-word blue-button one-button\">".$data[$i]["w3"]."</div><div class=\"space-place\"></div>
-                    <div class=\"center-block select-word blue-button one-button\">".$data[$i]["w4"]."</div><div class=\"space-place\"></div>
+                    <div class=\"center-block select-word blue-button one-button oi-fw\">".$data[$i]["w1"]."</div>
+                    <div class=\"space-place\"></div>
+                    <div class=\"center-block select-word blue-button one-button oi-fw\">".$data[$i]["w2"]."</div><div class=\"space-place\"></div>
+                    <div class=\"center-block select-word blue-button one-button oi-fw\">".$data[$i]["w3"]."</div>
+                    <div class=\"space-place\"></div>
+                    <div class=\"center-block select-word blue-button one-button oi-fw\">".$data[$i]["w4"]."</div>
+                    <div class=\"space-place\"></div>
                   </div>
                   <br>
-                  <div class=\"btn-check-clear center-block\" style=\"display: flex;flex-direction: row;justify-content: space-around;align-items: center;\">
+                  <!--<div class=\"btn-check-clear center-block\" style=\"display: flex;flex-direction: row;justify-content: space-around;align-items: center;\">
                     <button class=\"btn btn-success btn-lg btn-block FW-FW-left\"><span class=\"fa fa-shower\" style=\"font-size: 17pt;\"></span> <span  style=\"font-size: 17pt;\">Refresh</span></button>
-                  </div>
+                  </div>-->
                 </div>
                 <br><div class=\"space-place\" id=\"delete-media\"></div>
                 <div class=\"btn btn-danger btn-block disabled\" style=\"cursor: default;\"></div>
@@ -90,6 +96,7 @@ function outputGame($type, $count, $table)
             for($i = 0 ; $i < count($data); $i++)
             {
                 echo"<div class=\"container\">
+                <div class=\"reading on array\" style=\"font-size: 0pt;\"><span class=\"type\">".$type.",</span><span class=\"type-game\">game_4w_4w,</span></div>
                   <span class=\"after-append\"></span>
                   <div class=\"FW-FW\">
                     <div class=\"FW-FW-left\">
@@ -149,12 +156,13 @@ function outputGame($type, $count, $table)
             }
             for($i = 0; $i < count($data); $i++) {
                 echo "   <div class=\"container\">
+                <div class=\"reading on array\" style=\"font-size: 0pt;\"><span class=\"type\">".$type.",</span><span class=\"type-game\">game_4w_4w,</span></div>
                           <div class=\"FI-FW\">
                             <div class=\"FI-FW-left\">";
 
                 for ($j = 0; $j < count($url[$i]); $j++) {
 
-                    echo "<div role=\"button\" class=\" one-image\"><img src=\"../../" . $url[$i][$j] . "\" alt=\"\" class=\"img-responsive image small-image\"></div><div class=\"space-place\"></div>";
+                    echo "<div role=\"button\" class=\" one-image img-left\"><img src=\"../../" . $url[$i][$j] . "\" alt=\"\" class=\"img-responsive image small-image\"></div><div class=\"space-place\"></div>";
                 }
                 echo "</div><div class=\"FI-FW-center\">
                       <span class=\"fa fa-code-fork fa-3x fa-pulse\"></span>
@@ -163,14 +171,15 @@ function outputGame($type, $count, $table)
 
                 for ($j = 0; $j < count($words[$i]); $j++) {
 
-                    echo "<div class=\"select-word one-button\">" . $words[$i][$j] . "</div><div class=\"space-place\"></div>";
+                    echo "<div class=\"select-word one-button word-right\">" . $words[$i][$j] . "</div><div class=\"space-place\"></div>";
                 }
                 echo " </div>
                       </div>
                       <br><br><br>
-                      <div class=\"btn-check-clear center-block\" style=\"display: flex;flex-direction: row;justify-content: space-around;align-items: center;\">
+                      <!--<div class=\"btn-check-clear center-block\" style=\"display: flex;flex-direction: row;justify-content: space-around;align-items: center;\">
                         <button class=\"btn btn-success btn-lg btn-block FW-FW-left\"><span class=\"fa fa-shower\"></span> Refresh</button><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                       </div>
+                      -->
                     </div>
                     <br><br>
                     <div class=\"btn btn-danger btn-block disabled\" style=\"cursor: default;\"></div>
