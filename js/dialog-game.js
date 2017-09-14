@@ -26,3 +26,23 @@ function frame(){
     progress_bar.style.width = percent_position + '%';
   }
 }
+
+var j = 0;
+$('.input').each(function(){ j++; $(this).attr('id','input-'+j); });
+count = $('.input').length + 1;
+alert(count);
+for(i = 0; i++; i < count) {
+  var ip = "#input-"+i+"";
+  $(ip).addClass('inputtttttttt');
+}
+
+$('.check-button-click').on('click', function(){
+  name_dialog = $('.name_dialog').text();
+  name_dialog = name_dialog.split(',')[0];
+  array_dialog = { 
+    iteration : 1,
+    name_dialog : name_dialog 
+   };
+  console.log(array_dialog);
+})
+

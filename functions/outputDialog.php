@@ -43,6 +43,7 @@ function outputDialog($name_dialog)
         }
     }
     $full_dialog.="<div class=\"panel-footer\">
+    <div class=\"reading on array\" style=\"font-size: 0pt;\"><span class=\"name_dialog\">".$name_dialog.",</span></div>
 	  <div class=\"progress\">
 	  	<div class=\"progress-bar progress-bar-default progress-bar-striped active\" role=\"progress-bar\" aria-valuenow=\"50\" aria-valuemin=\"0\" aria-valuemax=\"100\" style=\"width: 0%;\" id=\"flex-progress-bar\">
 	  	</div>
@@ -78,7 +79,7 @@ function outputDialog($name_dialog)
         }
     }
     //echo $reduce_dialog;
-    echo str_replace("*", "<input type=\"text\" class=\"input-dialog\">", $reduce_dialog);
+    echo str_replace("*", "<input type=\"text\" class=\"input-dialog input\">", $reduce_dialog);
 
     //end reduce_dialog output
 
