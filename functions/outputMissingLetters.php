@@ -14,6 +14,7 @@ function outputMissingLetters($type)
     $gappy_words = explode(",", $x);
     $count_sbstr = substr_count($data[0]['gappy_words'], "*");
    $out = "<div class=\"container title-form-input\">
+   <div class=\"reading on array\" style=\"font-size: 0pt;\"><span class=\"type_miss_letter\">".$type.",</span></div>
   <div class=\"panel panel-warning\">
     <div class=\"panel-heading\">Insert into the words the missing letters \"л\" or \"р\".</div>
     <div class=\"panel-body\">";
@@ -36,7 +37,7 @@ function outputMissingLetters($type)
       </div>
     </div>
     <div class=\"btn btn-warning center-block\" role=\"button\" id=\"button-wait\"><span class=\"fa fa-spinner fa-2x fa-pulse\"></span></div>
-    <div class=\"btn btn-success center-block\" role=\"button\"  id=\"button-continue\" onclick=\"open_letter_section()\" style=\"display: none;\"><span class=\"fa fa-check-circle fa-2x\"></span></div>
+    <div class=\"btn btn-success center-block\" role=\"button\"  id=\"button-continue\"  style=\"display: none;\"><span class=\"fa fa-check-circle fa-2x\"></span></div><!-- onclick=\"open_letter_section()\" -->
   </div>
   </div>
 </div>";

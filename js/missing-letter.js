@@ -11,38 +11,22 @@ $(".input-miss-letter").on("keydown", function() {
     }
     return this;
   };
-  var ms1 = $('#miss-letter-1').val();
-  var ms2 = $('#miss-letter-2').val();
-  var ms3 = $('#miss-letter-3').val();
-  var ms4 = $('#miss-letter-4').val();
-  var ms5 = $('#miss-letter-5').val();
-  var ms6 = $('#miss-letter-6').val();
-  var ms7 = $('#miss-letter-7').val();
-  var ms8 = $('#miss-letter-8').val();
-  var ms9 = $('#miss-letter-9').val();
-  var ms10 = $('#miss-letter-10').val();
-  var ms11 = $('#miss-letter-11').val();
-  var ms12 = $('#miss-letter-12').val();
-  var ms13 = $('#miss-letter-13').val();
-  var ms14 = $('#miss-letter-14').val();
-  var ms15 = $('#miss-letter-15').val();
-  var ms16 = $('#miss-letter-16').val();
-  var ms17 = $('#miss-letter-17').val();
-  var ms18 = $('#miss-letter-18').val();
-  var ms19 = $('#miss-letter-19').val();
-  var ms20 = $('#miss-letter-20').val();
-  var ms21 = $('#miss-letter-21').val();
-  var ms22 = $('#miss-letter-22').val();
-  var ms23 = $('#miss-letter-23').val();
-  var ms24 = $('#miss-letter-24').val();
-  var ms25 = $('#miss-letter-25').val();
-  var arrms = [ ms1, ms2, ms3, ms4, ms5, ms6, ms7, ms8, ms9, ms10, ms11, ms12, ms13, ms14, ms15, ms16, ms17, ms18, ms19, ms20, ms21, ms22, ms23, ms24, ms25];
+  var ms1 = $('#1').val();
+  var ms2 = $('#2').val();
+  var ms3 = $('#3').val();
+  var ms4 = $('#4').val();
+  var ms5 = $('#5').val();
+  var ms6 = $('#6').val();
+  var ms7 = $('#7').val();
+  var ms8 = $('#8').val();
+  var ms9 = $('#9').val();
+  var arrms = [ ms1, ms2, ms3, ms4, ms5, ms6, ms7, ms8, ms9];
   arrms.clean("");
   arrms.clean(" ");
   var count = arrms.length;
   progress_bar = document.getElementById('step-progress-bar');
-  progress_bar.style.width = (count * 4.166666666666667) + '%';
-  if ((count == 24) || (count == 25)) {
+  progress_bar.style.width = (count * 13) + '%';
+  if ((count == 8) || (count == 9)) {
     var button_wait = document.getElementById('button-wait'); {
       button_wait.style.display = "none";
     }
@@ -59,3 +43,33 @@ $(".input-miss-letter").on("keydown", function() {
     }
   }
 });
+
+var i = 0;
+$('.input-miss-letter').each(function(){ i++; $(this).attr('id', i); });
+$('.btn-success').on('click', function(){
+  type_missing_letter = $('.type_miss_letter').text();
+  type_missing_letter = type_missing_letter.split(',')[0];
+  miss_letter_1 = $('#1').val();
+  miss_letter_2 = $('#2').val();
+  miss_letter_3 = $('#3').val();
+  miss_letter_4 = $('#4').val();
+  miss_letter_5 = $('#5').val();
+  miss_letter_6 = $('#6').val();
+  miss_letter_7 = $('#7').val();
+  miss_letter_8 = $('#8').val();
+  miss_letter_9 = $('#9').val();
+  array_letter = { 
+    iteration : 1,
+    type_missing_letter : type_missing_letter,
+    missing_letter_1 : miss_letter_1, 
+    missing_letter_2 : miss_letter_2, 
+    missing_letter_3 : miss_letter_3, 
+    missing_letter_4 : miss_letter_4, 
+    missing_letter_5 : miss_letter_5, 
+    missing_letter_6 : miss_letter_6, 
+    missing_letter_7 : miss_letter_7, 
+    missing_letter_8 : miss_letter_8, 
+    missing_letter_9 : miss_letter_9
+   };
+  console.log(array_letter);
+})
