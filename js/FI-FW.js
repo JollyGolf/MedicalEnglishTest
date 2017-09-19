@@ -44,6 +44,29 @@ type = type.split(',')[0];
 type_game = $('.type-game').text();
 type_game = type_game.split(',')[0];
 
+//ФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФ
+
+array_fi_fw_1 = [ 
+                  'nothing', 
+                  'nothing'
+                ];
+
+array_fi_fw_2 = [ 
+                  'nothing', 
+                  'nothing'
+                ];
+
+array_fi_fw_3 = [ 
+                  'nothing', 
+                  'nothing'
+                ];
+
+array_fi_fw = [ 
+                  'nothing', 
+                  'nothing',
+                  'nothing'
+                ];
+
 function fi_fw_1(){ var lll1; var rrr1; var lll2; var rrr2; var lll3; var rrr3; var lll4; var rrr4;
 $('.left-fi-fw-1').one('click', function left_side(){
   if(lll1) off('click', left_side);
@@ -112,12 +135,18 @@ $('.left-fi-fw-1').one('click', function left_side(){
                 lll2.css({ display: 'block'}),rrr2.css({ display: 'block'});
                 lll3.css({ display: 'block'}),rrr3.css({ display: 'block'});
                 lll4.css({ display: 'block'}),rrr4.css({ display: 'block'});
-                array_fi_fw_1 = { 
-                                  iteration : 1,
+                //ФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФ
+                array_fi_fw_left_1 = { 
+                                  iteration : '1 - left',
                                   url_image_1 : url_image1_fi_fw_1,
                                   url_image_2 : url_image2_fi_fw_1,
                                   url_image_3 : url_image3_fi_fw_1,
                                   url_image_4 : url_image4_fi_fw_1,
+                                  type : type, 
+                                  type_game : type_game 
+                                };
+                array_fi_fw_right_1 = { 
+                                  iteration : '1 - right',
                                   word_1 : word1_fw_fw_1,
                                   word_2 : word2_fw_fw_1,
                                   word_3 : word3_fw_fw_1,
@@ -125,7 +154,11 @@ $('.left-fi-fw-1').one('click', function left_side(){
                                   type : type, 
                                   type_game : type_game 
                                 };
-                console.log(array_fi_fw_1);
+                array_fi_fw_1[0] = array_fi_fw_left_1;
+                array_fi_fw_1[1] = array_fi_fw_right_1;
+                array_fi_fw[0] = array_fi_fw_1;
+                console.clear();
+                console.log(array_fi_fw);
                 $('.info-fw-fi-0').css({ display: 'none'});
                 $('.success-fi-fw-0').css({ display: 'block'});
                 $('.FW-FW-center').css({ display: 'block'});
@@ -209,12 +242,18 @@ $('.left-fi-fw-2').one('click', function left_side(){
                 lll22.css({ display: 'block'}),rrr22.css({ display: 'block'});
                 lll33.css({ display: 'block'}),rrr33.css({ display: 'block'});
                 lll44.css({ display: 'block'}),rrr44.css({ display: 'block'});
-                array_fi_fw_2 = { 
-                                  iteration : 2,
+                //ФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФ
+                array_fi_fw_left_2 = { 
+                                  iteration : '2 - left',
                                   url_image_1 : url_image1_fi_fw_2,
                                   url_image_2 : url_image2_fi_fw_2,
                                   url_image_3 : url_image3_fi_fw_2,
                                   url_image_4 : url_image4_fi_fw_2,
+                                  type : type, 
+                                  type_game : type_game 
+                                };
+                array_fi_fw_right_2 = { 
+                                  iteration : '2 - right',
                                   word_1 : word1_fw_fw_2,
                                   word_2 : word2_fw_fw_2,
                                   word_3 : word3_fw_fw_2,
@@ -222,7 +261,11 @@ $('.left-fi-fw-2').one('click', function left_side(){
                                   type : type, 
                                   type_game : type_game 
                                 };
-                console.log(array_fi_fw_2);
+                array_fi_fw_2[0] = array_fi_fw_left_2;
+                array_fi_fw_2[1] = array_fi_fw_right_2;
+                array_fi_fw[1] = array_fi_fw_2;
+                console.clear();
+                console.log(array_fi_fw);
                 $('.info-fi-fw-1').css({ display: 'none'});
                 $('.success-fi-fw-1').css({ display: 'block'});
                 $('.FW-FW-center').css({ display: 'block'});
@@ -306,12 +349,18 @@ $('.left-fi-fw-3').one('click', function left_side(){
                 lll222.css({ display: 'block'}),rrr222.css({ display: 'block'});
                 lll333.css({ display: 'block'}),rrr333.css({ display: 'block'});
                 lll444.css({ display: 'block'}),rrr444.css({ display: 'block'});
-                array_fi_fw_3 = { 
-                                  iteration : 3,
+                //ФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФ
+                array_fi_fw_left_3 = { 
+                                  iteration : '3 - left',
                                   url_image_1 : url_image1_fi_fw_3,
                                   url_image_2 : url_image2_fi_fw_3,
                                   url_image_3 : url_image3_fi_fw_3,
                                   url_image_4 : url_image4_fi_fw_3,
+                                  type : type, 
+                                  type_game : type_game 
+                                };
+                array_fi_fw_right_3 = { 
+                                  iteration : '3 - right',
                                   word_1 : word1_fw_fw_3,
                                   word_2 : word2_fw_fw_3,
                                   word_3 : word3_fw_fw_3,
@@ -319,7 +368,11 @@ $('.left-fi-fw-3').one('click', function left_side(){
                                   type : type, 
                                   type_game : type_game 
                                 };
-                console.log(array_fi_fw_3);
+                array_fi_fw_3[0] = array_fi_fw_left_3;
+                array_fi_fw_3[1] = array_fi_fw_right_3;
+                array_fi_fw[2] = array_fi_fw_3;
+                console.clear();
+                console.log(array_fi_fw);
                 $('.info-fi-fw-2').css({ display: 'none'});
                 $('.success-fi-fw-2').css({ display: 'block'});
                 $('.FW-FW-center').css({ display: 'block'});

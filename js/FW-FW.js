@@ -49,6 +49,28 @@ type = type.split(',')[0];
 type_game = $('.type-game').text();
 type_game = type_game.split(',')[0];
 
+//ФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФ
+array_fw_fw_1 = [ 
+                  'nothing', 
+                  'nothing'
+                ];
+
+array_fw_fw_2 = [ 
+                  'nothing', 
+                  'nothing'
+                ];
+
+array_fw_fw_3 = [ 
+                  'nothing', 
+                  'nothing'
+                ];
+
+array_fw_fw = [ 
+                  'nothing', 
+                  'nothing',
+                  'nothing'
+                ];
+
 function fw_fw_1(){ var lll1; var rrr1; var lll2; var rrr2; var lll3; var rrr3; var lll4; var rrr4;
 $('.left-fw-fw-1').one('click', function left_side(){
   if(lll1) off('click', left_side);
@@ -113,21 +135,30 @@ $('.left-fw-fw-1').one('click', function left_side(){
                 lll2.css({ display: 'block'}),rrr2.css({ display: 'block'});
                 lll3.css({ display: 'block'}),rrr3.css({ display: 'block'});
                 lll4.css({ display: 'block'}),rrr4.css({ display: 'block'});
-                array_fw_fw_1 = { 
-                                  iteration : 1,
+                //ФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФ
+                array_fw_fw_left_1 = { 
+                                  iteration : '1 - left',
                                   l1 : l1_fw_fw_1,
                                   l2 : l2_fw_fw_1,
                                   l3 : l3_fw_fw_1,
                                   l4 : l4_fw_fw_1,
+                                  type : type, 
+                                  type_game : type_game 
+                                };
+                array_fw_fw_right_1 = { 
+                                  iteration : '1 - right',
                                   r1 : r1_fw_fw_1,
                                   r2 : r2_fw_fw_1,
                                   r3 : r3_fw_fw_1,
                                   r4 : r4_fw_fw_1,
                                   type : type, 
                                   type_game : type_game 
-                                };
-                console.log(array_fw_fw_1);
-
+                                };                
+                array_fw_fw_1[0] = array_fw_fw_left_1;
+                array_fw_fw_1[1] = array_fw_fw_right_1;
+                array_fw_fw[0] = array_fw_fw_1;
+                console.clear();
+                console.log(array_fw_fw);
                 $('.info-fw-fw-0').css({ display: 'none'});
                 $('.success-fw-fw-0').css({ display: 'block'});
                 $('.FW-FW-center').css({ display: 'block'});
@@ -207,12 +238,18 @@ $('.left-fw-fw-2').one('click', function left_side(){
                 lll22.css({ display: 'block'}),rrr22.css({ display: 'block'});
                 lll33.css({ display: 'block'}),rrr33.css({ display: 'block'});
                 lll44.css({ display: 'block'}),rrr44.css({ display: 'block'});
-                array_fw_fw_2 = { 
-                                  iteration : 2,
+                //ФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФ
+                array_fw_fw_left_2 = { 
+                                  iteration : '2 - left',
                                   l1 : l1_fw_fw_2,
                                   l2 : l2_fw_fw_2,
                                   l3 : l3_fw_fw_2,
                                   l4 : l4_fw_fw_2,
+                                  type : type, 
+                                  type_game : type_game 
+                                };
+                array_fw_fw_right_2 = { 
+                                  iteration : '2 - right',
                                   r1 : r1_fw_fw_2,
                                   r2 : r2_fw_fw_2,
                                   r3 : r3_fw_fw_2,
@@ -220,7 +257,11 @@ $('.left-fw-fw-2').one('click', function left_side(){
                                   type : type, 
                                   type_game : type_game 
                                 };
-                console.log(array_fw_fw_2);
+                array_fw_fw_2[0] = array_fw_fw_left_2;
+                array_fw_fw_2[1] = array_fw_fw_right_2;
+                array_fw_fw[1] = array_fw_fw_2;
+                console.clear();
+                console.log(array_fw_fw);
                 $('.info-fw-fw-1').css({ display: 'none'});
                 $('.success-fw-fw-1').css({ display: 'block'});
                 $('.FW-FW-center').css({ display: 'block'});
@@ -235,6 +276,8 @@ $('.left-fw-fw-2').one('click', function left_side(){
   });
 });
 }
+
+
 
 function fw_fw_3(){ var lll111; var rrr111; var lll222; var rrr222; var lll333; var rrr333; var lll444; var rrr444;
 $('.left-fw-fw-3').one('click', function left_side(){
@@ -300,12 +343,18 @@ $('.left-fw-fw-3').one('click', function left_side(){
                 lll222.css({ display: 'block'}),rrr222.css({ display: 'block'});
                 lll333.css({ display: 'block'}),rrr333.css({ display: 'block'});
                 lll444.css({ display: 'block'}),rrr444.css({ display: 'block'});
-                array_fw_fw_3 = { 
-                                  iteration : 3,
+                //ФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФ
+                array_fw_fw_left_3 = { 
+                                  iteration : '3 - left',
                                   l1 : l1_fw_fw_3,
                                   l2 : l2_fw_fw_3,
                                   l3 : l3_fw_fw_3,
                                   l4 : l4_fw_fw_3,
+                                  type : type, 
+                                  type_game : type_game 
+                                };
+                array_fw_fw_right_3 = { 
+                                  iteration : '3 - right',
                                   r1 : r1_fw_fw_3,
                                   r2 : r2_fw_fw_3,
                                   r3 : r3_fw_fw_3,
@@ -313,7 +362,11 @@ $('.left-fw-fw-3').one('click', function left_side(){
                                   type : type, 
                                   type_game : type_game 
                                 };
-                console.log(array_fw_fw_3);
+                array_fw_fw_3[0] = array_fw_fw_left_3;
+                array_fw_fw_3[1] = array_fw_fw_right_3;
+                array_fw_fw[2] = array_fw_fw_3;
+                console.clear();
+                console.log(array_fw_fw);
                 $('.info-fw-fw-2').css({ display: 'none'});
                 $('.success-fw-fw-2').css({ display: 'block'});
                 $('.FW-FW-center').css({ display: 'block'});

@@ -25,6 +25,13 @@ type = type.split(',')[0];
 type_game = $('.type-game').text();
 type_game = type_game.split(',')[0];
 
+//ФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФ
+array_oi_fw = [ 
+                'nothing', 
+                'nothing', 
+                'nothing' 
+              ];
+
 function oi_fw_1(){
   $('.word-oi-fw-1').on('click', function() {
   $('.word-oi-fw-1').addClass('one-krop-bg-super-grey');
@@ -32,8 +39,16 @@ function oi_fw_1(){
   $(this).removeClass('one-krop-bg-super-grey');
   $(this).addClass('one-krop-bg-green');
     word_oi_fw_1 = $(this).text();
-    array_oi_fw_1 = { iteration : 1, right_word : word_oi_fw_1, type : type, type_game : type_game };
-    console.log(array_oi_fw_1);
+    //ФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФ
+    array_oi_fw_1 = { 
+                      iteration : 1, 
+                      right_word : word_oi_fw_1, 
+                      type : type, 
+                      type_game : type_game 
+                    };
+    array_oi_fw[0] = array_oi_fw_1;
+    console.clear();
+    console.log(array_oi_fw);
 });
 }
 
@@ -44,8 +59,16 @@ function oi_fw_2(){
   $(this).removeClass('one-krop-bg-super-grey');
   $(this).addClass('one-krop-bg-green');
     word_oi_fw_2 = $(this).text();
-    array_oi_fw_2 = { iteration : 2, right_word : word_oi_fw_2, type : type, type_game : type_game };
-    console.log(array_oi_fw_2);
+    //ФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФ
+    array_oi_fw_2 = { 
+                      iteration : 2, 
+                      right_word : word_oi_fw_2, 
+                      type : type, 
+                      type_game : type_game 
+                    };
+    array_oi_fw[1] = array_oi_fw_2;
+    console.clear();
+    console.log(array_oi_fw);
 });
 }
 
@@ -56,7 +79,15 @@ function oi_fw_3(){
   $(this).removeClass('one-krop-bg-super-grey');
   $(this).addClass('one-krop-bg-green');
     word_oi_fw_3 = $(this).text();
-    array_oi_fw_3 = { iteration : 3, right_word : word_oi_fw_3, type : type, type_game : type_game };
-    console.log(array_oi_fw_3);
+    //ФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФ
+    array_oi_fw_3 = { 
+                      iteration : 3, 
+                      right_word : word_oi_fw_3, 
+                      type : type, 
+                      type_game : type_game 
+                    };
+    array_oi_fw[2] = array_oi_fw_3;
+    console.clear();
+    console.log(array_oi_fw);
 });
 }
