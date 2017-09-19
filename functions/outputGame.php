@@ -30,7 +30,7 @@ function outputGame($type, $count, $table)
                   <div class=\"select-image-of-four ".$type."\">";
                 for($j = 0; $j < count($url[$i]); $j++) 
                 {
-                echo "<div role=\"button\" class=\"one-krop one-krop-bg-red btn-check\"><img src=\"../../" . $url[$i][$j] . "\" alt=\"\" class=\"img-responsive image active img-res\">
+                echo "<div role=\"button\" class=\"one-krop one-krop-bg-red btn-check\" data-id = \"".$data[$i]['id']."\"><img src=\"../../" . $url[$i][$j] . "\" alt=\"\" class=\"img-responsive image active img-res\">
                     </div>";
                 }
                 echo"
@@ -66,12 +66,12 @@ function outputGame($type, $count, $table)
                   <div class=\"choose-word-please\">
                     <div role=\"button\" class=\"one-focus center-block\"><div class=\"space-place\" id=\"delete-media\"></div><img src=\"../../".$data[$i]["url"]."\" class=\" img-responsive center-block\" style=\"margin: auto;\"></div>
                     <div class=\"space-place\"></div><div class=\"space-place\"></div>
-                    <div class=\"center-block select-word blue-button one-button oi-fw\">".$data[$i]["w1"]."</div>
+                    <div class=\"center-block select-word blue-button one-button oi-fw\" data-id = \"".$data[$i]['id']."\">".$data[$i]["w1"]."</div>
                     <div class=\"space-place\"></div>
-                    <div class=\"center-block select-word blue-button one-button oi-fw\">".$data[$i]["w2"]."</div><div class=\"space-place\"></div>
-                    <div class=\"center-block select-word blue-button one-button oi-fw\">".$data[$i]["w3"]."</div>
+                    <div class=\"center-block select-word blue-button one-button oi-fw\" data-id = \"".$data[$i]['id']."\">".$data[$i]["w2"]."</div><div class=\"space-place\"></div>
+                    <div class=\"center-block select-word blue-button one-button oi-fw\" data-id = \"".$data[$i]['id']."\">".$data[$i]["w3"]."</div>
                     <div class=\"space-place\"></div>
-                    <div class=\"center-block select-word blue-button one-button oi-fw\">".$data[$i]["w4"]."</div>
+                    <div class=\"center-block select-word blue-button one-button oi-fw\" data-id = \"".$data[$i]['id']."\">".$data[$i]["w4"]."</div>
                     <div class=\"space-place\"></div>
                   </div>
                   <br>
@@ -100,22 +100,22 @@ function outputGame($type, $count, $table)
                   <span class=\"after-append\"></span>
                   <div class=\"FW-FW\">
                     <div class=\"FW-FW-left\">
-                      <div class=\"center-block blue-button one-button left fw-fw\">".$data[$i]['a1']."</div><div class=\"space-place\"></div>
-                      <div class=\"center-block blue-button one-button left fw-fw\">".$data[$i]['a2']."</div><div class=\"space-place\"></div>
-                      <div class=\"center-block blue-button one-button left fw-fw\">".$data[$i]['a3']."</div><div class=\"space-place\"></div>
-                      <div class=\"center-block blue-button one-button left fw-fw\">".$data[$i]['a4']."</div><div class=\"space-place\"></div>
+                      <div class=\"center-block blue-button one-button left fw-fw\" data-id = \"".$data[$i]['id']."\">".$data[$i]['a1']."</div><div class=\"space-place\"></div>
+                      <div class=\"center-block blue-button one-button left fw-fw\" data-id = \"".$data[$i]['id']."\">".$data[$i]['a2']."</div><div class=\"space-place\"></div>
+                      <div class=\"center-block blue-button one-button left fw-fw\" data-id = \"".$data[$i]['id']."\">".$data[$i]['a3']."</div><div class=\"space-place\"></div>
+                      <div class=\"center-block blue-button one-button left fw-fw\" data-id = \"".$data[$i]['id']."\">".$data[$i]['a4']."</div><div class=\"space-place\"></div>
                     </div>
                     <div class=\"FW-FW-center\">
                       <span class=\"fa fa-code-fork fa-3x fa-pulse FW-center\"></span>
                     </div>
                     <div class=\"FW-FW-right\">
-                      <div class=\"center-block blue-button one-button right fw-fw\">".$data[$i]['q1']."</div><div class=\"space-place\"></div>
-                      <div class=\"center-block blue-button one-button right fw-fw\">".$data[$i]['q2']."</div><div class=\"space-place\"></div>
-                      <div class=\"center-block blue-button one-button right fw-fw\">".$data[$i]['q3']."</div><div class=\"space-place\"></div>
-                      <div class=\"center-block blue-button one-button right fw-fw\">".$data[$i]['q4']."</div><div class=\"space-place\"></div>
+                      <div class=\"center-block blue-button one-button right fw-fw\" data-id = \"".$data[$i]['id']."\">".$data[$i]['q1']."</div><div class=\"space-place\"></div>
+                      <div class=\"center-block blue-button one-button right fw-fw\" data-id = \"".$data[$i]['id']."\">".$data[$i]['q2']."</div><div class=\"space-place\"></div>
+                      <div class=\"center-block blue-button one-button right fw-fw\" data-id = \"".$data[$i]['id']."\">".$data[$i]['q3']."</div><div class=\"space-place\"></div>
+                      <div class=\"center-block blue-button one-button right fw-fw\" data-id = \"".$data[$i]['id']."\">".$data[$i]['q4']."</div><div class=\"space-place\"></div>
                     </div>
                   </div><br><br>
-                  <!--<div class=\"btn-check-clear center-block\" style=\"display: flex;flex-direction: row;justify-content: space-around;align-items: center;\">
+                  <!--<div class=\"btn-check-clear center-block\" id=\"check\" style=\"display: flex;flex-direction: row;justify-content: space-around;align-items: center;\">
                     <button class=\"btn btn-success btn-lg btn-block center-block btn-clear\">
                       <span class=\"fa fa-shower\"></span> Refresh
                     </button><br>
@@ -162,7 +162,7 @@ function outputGame($type, $count, $table)
 
                 for ($j = 0; $j < count($url[$i]); $j++) {
 
-                    echo "<div role=\"button\" class=\" one-image img-left\"><img src=\"../../" . $url[$i][$j] . "\" alt=\"\" class=\"img-responsive image small-image\"></div><div class=\"space-place\"></div>";
+                    echo "<div role=\"button\" class=\" one-image img-left\" data-id = \"".$data[$i]['id']."\"><img src=\"../../" . $url[$i][$j] . "\" alt=\"\" class=\"img-responsive image small-image\"></div><div class=\"space-place\"></div>";
                 }
                 echo "</div><div class=\"FI-FW-center\">
                       <span class=\"fa fa-code-fork fa-3x fa-pulse\"></span>
@@ -171,7 +171,7 @@ function outputGame($type, $count, $table)
 
                 for ($j = 0; $j < count($words[$i]); $j++) {
 
-                    echo "<div class=\"select-word one-button word-right\">" . $words[$i][$j] . "</div><div class=\"space-place\"></div>";
+                    echo "<div class=\"select-word one-button word-right\" data-id = \"".$data[$i]['id']."\">" . $words[$i][$j] . "</div><div class=\"space-place\"></div>";
                 }
                 echo " </div>
                       </div>

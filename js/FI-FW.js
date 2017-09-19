@@ -44,8 +44,6 @@ type = type.split(',')[0];
 type_game = $('.type-game').text();
 type_game = type_game.split(',')[0];
 
-//ФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФ
-
 array_fi_fw_1 = [ 
                   'nothing', 
                   'nothing'
@@ -127,6 +125,7 @@ $('.left-fi-fw-1').one('click', function left_side(){
               $('.right-fi-fw-1').one('click', function right_side(){
                 if(rrr4) off('click', right_side);
                 $(this).addClass('one-krop-bg-yellow');
+                data_id = $(this).attr('data-id');
                 word4_fw_fw_1 = $(this).text();
                 var rrr4 = $(this);
                 lll4.css({ display: 'none'}),rrr4.css({ display: 'none'});
@@ -135,13 +134,13 @@ $('.left-fi-fw-1').one('click', function left_side(){
                 lll2.css({ display: 'block'}),rrr2.css({ display: 'block'});
                 lll3.css({ display: 'block'}),rrr3.css({ display: 'block'});
                 lll4.css({ display: 'block'}),rrr4.css({ display: 'block'});
-                //ФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФ
                 array_fi_fw_left_1 = { 
                                   iteration : '1 - left',
                                   url_image_1 : url_image1_fi_fw_1,
                                   url_image_2 : url_image2_fi_fw_1,
                                   url_image_3 : url_image3_fi_fw_1,
                                   url_image_4 : url_image4_fi_fw_1,
+                                  data_id: data_id,
                                   type : type, 
                                   type_game : type_game 
                                 };
@@ -151,6 +150,7 @@ $('.left-fi-fw-1').one('click', function left_side(){
                                   word_2 : word2_fw_fw_1,
                                   word_3 : word3_fw_fw_1,
                                   word_4 : word4_fw_fw_1,
+                                  data_id : data_id,
                                   type : type, 
                                   type_game : type_game 
                                 };
@@ -234,6 +234,7 @@ $('.left-fi-fw-2').one('click', function left_side(){
               $('.right-fi-fw-2').one('click', function right_side(){
                 if(rrr44) off('click', right_side);
                 $(this).addClass('one-krop-bg-yellow');
+                data_id = $(this).attr('data-id');
                 word4_fw_fw_2 = $(this).text();
                 var rrr44 = $(this);
                 lll44.css({ display: 'none'}),rrr44.css({ display: 'none'});
@@ -242,13 +243,13 @@ $('.left-fi-fw-2').one('click', function left_side(){
                 lll22.css({ display: 'block'}),rrr22.css({ display: 'block'});
                 lll33.css({ display: 'block'}),rrr33.css({ display: 'block'});
                 lll44.css({ display: 'block'}),rrr44.css({ display: 'block'});
-                //ФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФ
                 array_fi_fw_left_2 = { 
                                   iteration : '2 - left',
                                   url_image_1 : url_image1_fi_fw_2,
                                   url_image_2 : url_image2_fi_fw_2,
                                   url_image_3 : url_image3_fi_fw_2,
                                   url_image_4 : url_image4_fi_fw_2,
+                                  data_id : data_id,
                                   type : type, 
                                   type_game : type_game 
                                 };
@@ -258,6 +259,7 @@ $('.left-fi-fw-2').one('click', function left_side(){
                                   word_2 : word2_fw_fw_2,
                                   word_3 : word3_fw_fw_2,
                                   word_4 : word4_fw_fw_2,
+                                  data_id : data_id,
                                   type : type, 
                                   type_game : type_game 
                                 };
@@ -341,6 +343,7 @@ $('.left-fi-fw-3').one('click', function left_side(){
               $('.right-fi-fw-3').one('click', function right_side(){
                 if(rrr444) off('click', right_side);
                 $(this).addClass('one-krop-bg-yellow');
+                data_id = $(this).attr('data-id');
                 word4_fw_fw_3 = $(this).text();
                 var rrr444 = $(this);
                 lll444.css({ display: 'none'}),rrr444.css({ display: 'none'});
@@ -349,13 +352,13 @@ $('.left-fi-fw-3').one('click', function left_side(){
                 lll222.css({ display: 'block'}),rrr222.css({ display: 'block'});
                 lll333.css({ display: 'block'}),rrr333.css({ display: 'block'});
                 lll444.css({ display: 'block'}),rrr444.css({ display: 'block'});
-                //ФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФ
                 array_fi_fw_left_3 = { 
                                   iteration : '3 - left',
                                   url_image_1 : url_image1_fi_fw_3,
                                   url_image_2 : url_image2_fi_fw_3,
                                   url_image_3 : url_image3_fi_fw_3,
                                   url_image_4 : url_image4_fi_fw_3,
+                                  data_id : data_id,
                                   type : type, 
                                   type_game : type_game 
                                 };
@@ -365,6 +368,7 @@ $('.left-fi-fw-3').one('click', function left_side(){
                                   word_2 : word2_fw_fw_3,
                                   word_3 : word3_fw_fw_3,
                                   word_4 : word4_fw_fw_3,
+                                  data_id : data_id,
                                   type : type, 
                                   type_game : type_game 
                                 };
@@ -387,3 +391,25 @@ $('.left-fi-fw-3').one('click', function left_side(){
   });
 });
 }
+
+$('#check').on('click', function () {
+  if ( (window.array_fi_fw_left_1 == undefined) || (window.array_fi_fw_left_2 == undefined) || (window.array_fi_fw_left_3 == undefined)){ 
+    alert("Выполните все задание!");
+  }
+  else {
+    if(array_fi_fw_left_1[0]['type'] == "person_apperance")//для каждой категории разные проверки
+    {
+      console.log("+++");
+      $.ajax(
+      {
+        type: "GET",
+        url: "/MedicalEnglishTest/functions/check_game/FI-FW.php",//для кажого типа разные файлы обработчики
+        data: "data="+JSON.stringify(array_fi_fw),
+        success: function(data)
+        {
+          //пока не трогать
+        }
+      }
+    );}
+  }
+});

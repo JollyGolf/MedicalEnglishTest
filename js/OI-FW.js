@@ -24,8 +24,6 @@ type = $('.type').text();
 type = type.split(',')[0];
 type_game = $('.type-game').text();
 type_game = type_game.split(',')[0];
-
-//ФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФ
 array_oi_fw = [ 
                 'nothing', 
                 'nothing', 
@@ -39,12 +37,13 @@ function oi_fw_1(){
   $(this).removeClass('one-krop-bg-super-grey');
   $(this).addClass('one-krop-bg-green');
     word_oi_fw_1 = $(this).text();
-    //ФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФ
+    data_id = $(this).attr('data-id');
     array_oi_fw_1 = { 
                       iteration : 1, 
                       right_word : word_oi_fw_1, 
                       type : type, 
-                      type_game : type_game 
+                      type_game : type_game, 
+                      data_id : data_id 
                     };
     array_oi_fw[0] = array_oi_fw_1;
     console.clear();
@@ -59,12 +58,13 @@ function oi_fw_2(){
   $(this).removeClass('one-krop-bg-super-grey');
   $(this).addClass('one-krop-bg-green');
     word_oi_fw_2 = $(this).text();
-    //ФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФ
+    data_id = $(this).attr('data-id');
     array_oi_fw_2 = { 
                       iteration : 2, 
                       right_word : word_oi_fw_2, 
                       type : type, 
-                      type_game : type_game 
+                      type_game : type_game,
+                      data_id : data_id  
                     };
     array_oi_fw[1] = array_oi_fw_2;
     console.clear();
@@ -79,15 +79,38 @@ function oi_fw_3(){
   $(this).removeClass('one-krop-bg-super-grey');
   $(this).addClass('one-krop-bg-green');
     word_oi_fw_3 = $(this).text();
-    //ФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФ
+    data_id = $(this).attr('data-id');
     array_oi_fw_3 = { 
                       iteration : 3, 
                       right_word : word_oi_fw_3, 
                       type : type, 
-                      type_game : type_game 
+                      type_game : type_game,
+                      data_id : data_id  
                     };
     array_oi_fw[2] = array_oi_fw_3;
     console.clear();
     console.log(array_oi_fw);
 });
 }
+
+$('#check').on('click', function () {
+  if ( (window.array_oi_fw_1 == undefined) || (window.array_oi_fw_2 == undefined) || (window.array_oi_fw_3 == undefined)){ 
+    alert("Выполните все задание!");
+  }
+  else {
+    if(array_oi_fw[0]['type'] == "person_apperance")//для каждой категории разные проверки
+    {
+      console.log("+++");
+      $.ajax(
+      {
+        type: "GET",
+        url: "/MedicalEnglishTest/functions/check_game/OI-FW.php",//для кажого типа разные файлы обработчики
+        data: "data="+JSON.stringify(array_oi_fw),
+        success: function(data)
+        {
+          //пока не трогать
+        }
+      }
+    );}
+  }
+});

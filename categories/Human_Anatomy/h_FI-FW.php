@@ -36,7 +36,7 @@
   </div>
 </nav>
 <?php require_once __DIR__."/../../functions/outputGame.php"; outputGame('human_anatomy', 3, 'game_4i_4w'); ?>
-<button class="btn btn-warning btn-lg btn-block FW-FW-right btn-check"><span class="fa fa-check-circle"></span> Check</button>
+<button class="btn btn-warning btn-lg btn-block FW-FW-right btn-check" id="check"><span class="fa fa-check-circle"></span> Check</button>
 <?php require("../../parts/link-bottom.php"); ?>
 <script type="text/javascript" src="../../js/FI-FW.js"></script>
 </body>

@@ -127,6 +127,7 @@ $('.left-fw-fw-1').one('click', function left_side(){
               $('.right-fw-fw-1').one('click', function right_side(){
                 if(rrr4) off('click', right_side);
                 $(this).addClass('one-krop-bg-yellow');
+                data_id = $(this).attr('data-id');
                 r4_fw_fw_1 = $(this).text();
                 var rrr4 = $(this);
                 lll4.css({ display: 'none'}),rrr4.css({ display: 'none'});
@@ -142,6 +143,7 @@ $('.left-fw-fw-1').one('click', function left_side(){
                                   l2 : l2_fw_fw_1,
                                   l3 : l3_fw_fw_1,
                                   l4 : l4_fw_fw_1,
+                                  data_id : data_id,
                                   type : type, 
                                   type_game : type_game 
                                 };
@@ -151,6 +153,7 @@ $('.left-fw-fw-1').one('click', function left_side(){
                                   r2 : r2_fw_fw_1,
                                   r3 : r3_fw_fw_1,
                                   r4 : r4_fw_fw_1,
+                                  data_id : data_id,
                                   type : type, 
                                   type_game : type_game 
                                 };                
@@ -230,6 +233,7 @@ $('.left-fw-fw-2').one('click', function left_side(){
               $('.right-fw-fw-2').one('click', function right_side(){
                 if(rrr44) off('click', right_side);
                 $(this).addClass('one-krop-bg-yellow');
+                data_id = $(this).attr('data-id');
                 r4_fw_fw_2 = $(this).text();
                 var rrr44 = $(this);
                 lll44.css({ display: 'none'}),rrr44.css({ display: 'none'});
@@ -245,6 +249,7 @@ $('.left-fw-fw-2').one('click', function left_side(){
                                   l2 : l2_fw_fw_2,
                                   l3 : l3_fw_fw_2,
                                   l4 : l4_fw_fw_2,
+                                  data_id : data_id,
                                   type : type, 
                                   type_game : type_game 
                                 };
@@ -254,6 +259,7 @@ $('.left-fw-fw-2').one('click', function left_side(){
                                   r2 : r2_fw_fw_2,
                                   r3 : r3_fw_fw_2,
                                   r4 : r4_fw_fw_2,
+                                  data_id : data_id,
                                   type : type, 
                                   type_game : type_game 
                                 };
@@ -335,6 +341,7 @@ $('.left-fw-fw-3').one('click', function left_side(){
               $('.right-fw-fw-3').one('click', function right_side(){
                 if(rrr444) off('click', right_side);
                 $(this).addClass('one-krop-bg-yellow');
+                data_id = $(this).attr('data-id');
                 r4_fw_fw_3 = $(this).text();
                 var rrr444 = $(this);
                 lll444.css({ display: 'none'}),rrr444.css({ display: 'none'});
@@ -350,6 +357,7 @@ $('.left-fw-fw-3').one('click', function left_side(){
                                   l2 : l2_fw_fw_3,
                                   l3 : l3_fw_fw_3,
                                   l4 : l4_fw_fw_3,
+                                  data_id : data_id,
                                   type : type, 
                                   type_game : type_game 
                                 };
@@ -359,6 +367,7 @@ $('.left-fw-fw-3').one('click', function left_side(){
                                   r2 : r2_fw_fw_3,
                                   r3 : r3_fw_fw_3,
                                   r4 : r4_fw_fw_3,
+                                  data_id : data_id,
                                   type : type, 
                                   type_game : type_game 
                                 };
@@ -381,3 +390,25 @@ $('.left-fw-fw-3').one('click', function left_side(){
   });
 });
 }
+
+$('#check').on('click', function () {
+  if ( (window.array_fw_fw_left_1 == undefined) || (window.array_fw_fw_left_2 == undefined) || (window.array_fw_fw_left_3 == undefined)){ 
+    alert("Выполните все задание!");
+  }
+  else {
+    if(array_fw_fw_1[0]['type'] == "person_apperance")//для каждой категории разные проверки
+    {
+      console.log("+++");
+      $.ajax(
+      {
+        type: "GET",
+        url: "/MedicalEnglishTest/functions/check_game/FW-FW.php",//для кажого типа разные файлы обработчики
+        data: "data="+JSON.stringify(array_fw_fw),
+        success: function(data)
+        {
+          //пока не трогать
+        }
+      }
+    );}
+  }
+});
