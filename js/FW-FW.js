@@ -380,7 +380,7 @@ $('.left-fw-fw-3').one('click', function left_side(){
                 $('.success-fw-fw-2').css({ display: 'block'});
                 $('.FW-FW-center').css({ display: 'block'});
                 $(this).off('click', '.right-fw-fw-3', right_side);
-                $('.right-fw-fw-3').off('click', right_side);
+                $('.right-fw-fw-3').off('click', right_side); 
               });
             });
           });
