@@ -121,7 +121,35 @@ $('#check').on('click', function () {
     alert("Выполните все задание!");
   }
   else {
-    if(array_fi_ow[0]['type'] == "person_apperance")//для каждой категории разные проверки
+    if(array_fi_ow[0]['type'] == "person_apperance")
+    {
+      console.log("+++");
+      $.ajax(
+      {
+        type: "GET",
+        url: "/MedicalEnglishTest/functions/check_game/FI-OW.php",//для кажого типа разные файлы обработчики
+        data: "data="+JSON.stringify(array_fi_ow),
+        success: function(data)
+        {
+          //пока не трогать
+        }
+      }
+    );}
+    if(array_fi_ow[0]['type'] == "body_parts")
+    {
+      console.log("+++");
+      $.ajax(
+      {
+        type: "GET",
+        url: "/MedicalEnglishTest/functions/check_game/FI-OW.php",//для кажого типа разные файлы обработчики
+        data: "data="+JSON.stringify(array_fi_ow),
+        success: function(data)
+        {
+          //пока не трогать
+        }
+      }
+    );}
+    if(array_fi_ow[0]['type'] == "human_anatomy")
     {
       console.log("+++");
       $.ajax(
