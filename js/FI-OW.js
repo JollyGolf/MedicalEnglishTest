@@ -117,13 +117,11 @@ function assoc_array() {
 }
 
 $('#check').on('click', function () {
-  if ( (window.array_fi_ow_1 == undefined) || (window.array_fi_ow_2 == undefined) || (window.array_fi_ow_3 == undefined)){ 
+  if ( (window.array_fi_ow_1 == undefined) || (window.array_fi_ow_2 == undefined) || (window.array_fi_ow_3 == undefined)){
     alert("Выполните все задание!");
   }
   else {
-    if(array_fi_ow[0]['type'] == "person_apperance")
-    {
-      console.log("+++");
+
       $.ajax(
       {
         type: "GET",
@@ -131,37 +129,10 @@ $('#check').on('click', function () {
         data: "data="+JSON.stringify(array_fi_ow),
         success: function(data)
         {
-          //пока не трогать
+          $('body').html(data);
         }
       }
-    );}
-    if(array_fi_ow[0]['type'] == "body_parts")
-    {
-      console.log("+++");
-      $.ajax(
-      {
-        type: "GET",
-        url: "/MedicalEnglishTest/functions/check_game/FI-OW.php",//для кажого типа разные файлы обработчики
-        data: "data="+JSON.stringify(array_fi_ow),
-        success: function(data)
-        {
-          //пока не трогать
-        }
-      }
-    );}
-    if(array_fi_ow[0]['type'] == "human_anatomy")
-    {
-      console.log("+++");
-      $.ajax(
-      {
-        type: "GET",
-        url: "/MedicalEnglishTest/functions/check_game/FI-OW.php",//для кажого типа разные файлы обработчики
-        data: "data="+JSON.stringify(array_fi_ow),
-        success: function(data)
-        {
-          //пока не трогать
-        }
-      }
-    );}
+    );
+
   }
 });
