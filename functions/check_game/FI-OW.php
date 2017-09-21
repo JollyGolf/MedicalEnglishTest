@@ -1,23 +1,27 @@
 <?php
 require_once __DIR__."/../../functions/sql_connect.php";
-
+$plus = 0;
+$minus = 0;
 $result = [];
 $data = json_decode($_GET['data'], true);
 //var_dump($data[0]);
 for($i = 0; $i < count($data); $i++)
 {
-    check($data[$i]);
+    check_and_print($data[$i]);
 
 }
 //var_dump($result);
+echo "Правильных ответов ".$plus." из ".($plus + $minus);
 
-function check($data)
+function check_and_print($data)
 {
     $id = $data['data_id'];
     $type = $data['type'];
     $url = $data['right_url'];
     global $mysqli;
-    global $result;
+    //global $result;
+    global $plus;
+    global $minus;
     connectDB();
     $query = $mysqli->query("SELECT * FROM game_4i_1w WHERE id = '$id' AND type = '$type'");
     while ($row = $query->fetch_assoc()) {
@@ -28,7 +32,7 @@ function check($data)
 
         if($url == $right_url)
         {
-             $result[] = true;
+             $plus++;
 
             $urls = explode(" ", $answer["url"]);
             //var_dump($urls);
@@ -71,7 +75,7 @@ function check($data)
         }
         else{
             $result[] = false;
-
+            $minus++;
             $urls = explode(" ", $answer["url"]);
             //var_dump($urls);
             echo "<div class=\"container select-image-challange\">
