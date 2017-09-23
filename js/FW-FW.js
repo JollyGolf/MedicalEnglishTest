@@ -392,13 +392,12 @@ $('.left-fw-fw-3').one('click', function left_side(){
 }
 
 $('#check').on('click', function () {
-  if ( (window.array_fw_fw_left_1 == undefined) || (window.array_fw_fw_left_2 == undefined) || (window.array_fw_fw_left_3 == undefined)){ 
+ /* if ( (window.array_fw_fw_left_1 == undefined) || (window.array_fw_fw_left_2 == undefined) || (window.array_fw_fw_left_3 == undefined)){
     alert("Выполните все задание!");
   }
-  else {
-    if(array_fw_fw_1[0]['type'] == "person_apperance")
-    {
-      console.log("+++");
+  else {*/
+
+
       $.ajax(
       {
         type: "GET",
@@ -406,37 +405,10 @@ $('#check').on('click', function () {
         data: "data="+JSON.stringify(array_fw_fw),
         success: function(data)
         {
-          //пока не трогать
+          $('body').html(data);
         }
       }
-    );}
-    if(array_fw_fw_1[0]['type'] == "body_parts")
-    {
-      console.log("+++");
-      $.ajax(
-      {
-        type: "GET",
-        url: "/MedicalEnglishTest/functions/check_game/FW-FW.php",//для кажого типа разные файлы обработчики
-        data: "data="+JSON.stringify(array_fw_fw),
-        success: function(data)
-        {
-          //пока не трогать
-        }
-      }
-    );}
-    if(array_fw_fw_1[0]['type'] == "human_anatomy")
-    {
-      console.log("+++");
-      $.ajax(
-      {
-        type: "GET",
-        url: "/MedicalEnglishTest/functions/check_game/FW-FW.php",//для кажого типа разные файлы обработчики
-        data: "data="+JSON.stringify(array_fw_fw),
-        success: function(data)
-        {
-          //пока не трогать
-        }
-      }
-    );}
-  }
+    );
+
+  //}
 });
