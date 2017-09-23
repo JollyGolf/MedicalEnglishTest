@@ -163,5 +163,5 @@
                                        .one-surprise-success,.one-surprise-middle,.one-surprise-bad { width: 290px; height: 150px; }  
                                        .flip-one-game { width: 290px; height: 150px; }
                                      }
-@media screen and (max-width: 375px) { .one-focus { width: 290px; height: 290px;}}
+@media screen and (max-width: 375px) { .one-focus { width: 290px; height: 290px;}} 
 
