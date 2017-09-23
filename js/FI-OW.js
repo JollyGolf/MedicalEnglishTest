@@ -43,7 +43,6 @@ $('.image-fi-ow-1').on('click', function() {
     type = type.split(',')[1];
     type_game = $('.type-game').text();
     type_game = type_game.split(',')[1];
-    assoc_array();
     array_fi_ow_1 = { 
                       iteration : 1, 
                       right_url : url_fi_ow_1, 
@@ -70,7 +69,6 @@ $('.image-fi-ow-2').on('click', function() {
     type = type.split(',')[1];
     type_game = $('.type-game').text();
     type_game = type_game.split(',')[1];
-    assoc_array();
     array_fi_ow_2 = { 
                       iteration : 2, 
                       right_url : url_fi_ow_2, 
@@ -97,7 +95,6 @@ $('.image-fi-ow-3').on('click', function() {
     type = type.split(',')[0];
     type_game = $('.type-game').text();
     type_game = type_game.split(',')[0];
-    assoc_array();
     array_fi_ow_3 = { 
                       iteration : 3, 
                       right_url : url_fi_ow_3, 
@@ -130,7 +127,4 @@ $('#check').on('click', function () {
     );
 
   }
-});
-$(document).ready(function() {
-  $('.disabled:last').remove();
 });
