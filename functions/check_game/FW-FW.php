@@ -113,7 +113,9 @@ function check_and_print($data)
             $count++;
         }
 
-        echo " </div>
+
+    }
+    echo " </div>
                   </div><br><br>
                   <!--<div class=\"btn-check-clear center-block\" id=\"check\" style=\"display: flex;flex-direction: row;justify-content: space-around;align-items: center;\">
                     <button class=\"btn btn-success btn-lg btn-block center-block btn-clear\">
@@ -137,7 +139,4 @@ function check_and_print($data)
                 <br><br>
                 </div>";
 
-
-
-    }
 }
