@@ -37,17 +37,9 @@ function outputGame($type, $count, $table)
               <div class=\"btn-block\"></div>
               <div class=\"center-block  select-word blue-button one-button\">".$data[$i]["word"]."</div>
               <div class=\"btn-block\"></div>
-              <!--
-              <div class=\"btn-check-clear center-block \" style=\"display: flex;flex-direction: row;justify-content: space-around;align-items: center;\">
-                <button class=\"btn btn-success btn-lg btn-block FW-FW-left btn-clear\"><span class=\"fa fa-shower\" style=\"font-size: 17pt;\"></span> <span style=\"font-size: 17pt;\">Refresh</span></button><br>
-                <br><br><br><br>
-              </div>-->
             </div>
             <div class=\"btn-block btn btn-success disabled\" style=\"cursor: default;\"></div>
-            <br><br>
-            <?php require(\"parts/link-bottom.php\"); ?>
-            </body>
-            </html>";
+            ";
             }
             break;
             //end 1-st case

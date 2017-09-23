@@ -94,51 +94,25 @@ function oi_fw_3(){
 }
 
 $('#check').on('click', function () {
-  if ( (window.array_oi_fw_1 == undefined) || (window.array_oi_fw_2 == undefined) || (window.array_oi_fw_3 == undefined)){ 
+  if ( (window.array_oi_fw_1 == undefined) || (window.array_oi_fw_2 == undefined) || (window.array_oi_fw_3 == undefined)){
     alert("Выполните все задание!");
   }
   else {
-    if(array_oi_fw[0]['type'] == "person_apperance")
-    {
-      console.log("+++");
+
       $.ajax(
-      {
-        type: "GET",
-        url: "/MedicalEnglishTest/functions/check_game/OI-FW.php",//для кажого типа разные файлы обработчики
-        data: "data="+JSON.stringify(array_oi_fw),
-        success: function(data)
-        {
-          //пока не трогать
-        }
-      }
-    );}
-    if(array_oi_fw[0]['type'] == "body_parts")
-    {
-      console.log("+++");
-      $.ajax(
-      {
-        type: "GET",
-        url: "/MedicalEnglishTest/functions/check_game/OI-FW.php",//для кажого типа разные файлы обработчики
-        data: "data="+JSON.stringify(array_oi_fw),
-        success: function(data)
-        {
-          //пока не трогать
-        }
-      }
-    );}
-    if(array_oi_fw[0]['type'] == "human_anatomy")
-    {
-      console.log("+++");
-      $.ajax(
-      {
-        type: "GET",
-        url: "/MedicalEnglishTest/functions/check_game/OI-FW.php",//для кажого типа разные файлы обработчики
-        data: "data="+JSON.stringify(array_oi_fw),
-        success: function(data)
-        {
-          //пока не трогать
-        }
-      }
-    );}
-  }
+          {
+              type: "GET",
+              url: "/MedicalEnglishTest/functions/check_game/OI-FW.php",//для кажого типа разные файлы обработчики
+              data: "data="+JSON.stringify(array_oi_fw),
+              success: function(data)
+              {
+                  $('body').html(data);
+              }
+          }
+      );
+
+ }
+});
+$(document).ready(function() {
+  $('.disabled:last').remove();
 });

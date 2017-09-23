@@ -38,8 +38,8 @@
 </nav>
 <?php require_once __DIR__."/../../functions/outputGame.php"; outputGame('human_anatomy', 3, 'game_4i_1w'); ?>
 <button class="btn btn-warning btn-lg btn-block FW-FW-right" id="check" style="font-size: 17pt;"><span class="fa fa-check-circle"></span> Check</button>
-<br>
 <?php require("../../parts/link-bottom.php"); ?>
 <script type="text/javascript" src="../../js/FI-OW.js"></script>
+
 </body>
 </html>
