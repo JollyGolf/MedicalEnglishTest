@@ -95,25 +95,39 @@ function outputGame($type, $count, $table)
             }
             for($i = 0 ; $i < count($data); $i++)
             {
+
+                $a[] = $data[$i]['a1'];
+                $a[] = $data[$i]['a2'];
+                $a[] = $data[$i]['a3'];
+                $a[] = $data[$i]['a4'];
+
+                $q[] = $data[$i]['q1'];
+                $q[] = $data[$i]['q2'];
+                $q[] = $data[$i]['q3'];
+                $q[] = $data[$i]['q4'];
+                shuffle($a);
+                shuffle($q);
                 echo"<div class=\"container\">
                 <div class=\"reading on array\" style=\"font-size: 0pt;\"><span class=\"type\">".$type.",</span><span class=\"type-game\">game_4w_4w,</span></div>
                   <span class=\"after-append\"></span>
                   <div class=\"FW-FW\">
-                    <div class=\"FW-FW-left\">
-                      <div class=\"center-block blue-button one-button left fw-fw\" data-id = \"".$data[$i]['id']."\">".$data[$i]['a1']."</div><div class=\"space-place\"></div>
-                      <div class=\"center-block blue-button one-button left fw-fw\" data-id = \"".$data[$i]['id']."\">".$data[$i]['a2']."</div><div class=\"space-place\"></div>
-                      <div class=\"center-block blue-button one-button left fw-fw\" data-id = \"".$data[$i]['id']."\">".$data[$i]['a3']."</div><div class=\"space-place\"></div>
-                      <div class=\"center-block blue-button one-button left fw-fw\" data-id = \"".$data[$i]['id']."\">".$data[$i]['a4']."</div><div class=\"space-place\"></div>
+                    <div class=\"FW-FW-left\">";
+                    for($j = 0; $j < count($a); $j++)
+                    {
+                        echo" <div class=\"center-block blue-button one-button left fw-fw\" data-id = \"".$data[$i]['id']."\">".$a[$j]."</div><div class=\"space-place\"></div>";
+                    }
+                      echo"
                     </div>
                     <div class=\"FW-FW-center\">
                       <span class=\"fa fa-code-fork fa-3x fa-pulse FW-center\"></span>
                     </div>
-                    <div class=\"FW-FW-right\">
-                      <div class=\"center-block blue-button one-button right fw-fw\" data-id = \"".$data[$i]['id']."\">".$data[$i]['q1']."</div><div class=\"space-place\"></div>
-                      <div class=\"center-block blue-button one-button right fw-fw\" data-id = \"".$data[$i]['id']."\">".$data[$i]['q2']."</div><div class=\"space-place\"></div>
-                      <div class=\"center-block blue-button one-button right fw-fw\" data-id = \"".$data[$i]['id']."\">".$data[$i]['q3']."</div><div class=\"space-place\"></div>
-                      <div class=\"center-block blue-button one-button right fw-fw\" data-id = \"".$data[$i]['id']."\">".$data[$i]['q4']."</div><div class=\"space-place\"></div>
-                    </div>
+                    <div class=\"FW-FW-right\">";
+
+                for($j = 0; $j < count($q); $j++)
+                {
+                    echo" <div class=\"center-block blue-button one-button right fw-fw\" data-id = \"".$data[$i]['id']."\">".$q[$j]."</div><div class=\"space-place\"></div>";
+                }
+                      echo"
                   </div><br><br>
                   <!--<div class=\"btn-check-clear center-block\" id=\"check\" style=\"display: flex;flex-direction: row;justify-content: space-around;align-items: center;\">
                     <button class=\"btn btn-success btn-lg btn-block center-block btn-clear\">
@@ -136,7 +150,8 @@ function outputGame($type, $count, $table)
                 <div class=\"btn btn-danger btn-block disabled\" style=\"cursor: default;\"></div>
                 <br><br>
                 ";
-
+                $a = [];
+                $q = [];
             }
             break;//end 3-st case
 
