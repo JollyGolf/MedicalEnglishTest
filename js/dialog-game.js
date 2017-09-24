@@ -48,7 +48,6 @@ $('.check-button-click').on('click', function(){
   miss_word_11 = $('#11').val();
   miss_word_12 = $('#12').val();
   miss_word_13 = $('#13').val();
-  //ФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФ
   array_dialog = { 
     iteration : 1,
     name_dialog : name_dialog,
@@ -66,5 +65,19 @@ $('.check-button-click').on('click', function(){
     missing_word_12 : miss_word_12, 
     missing_word_13 : miss_word_13
    };
+  console.clear();
   console.log(array_dialog);
 })
+$('#check-button-click').on('click', function () {
+      $.ajax(
+      {
+        type: "GET",
+        url: "/MedicalEnglishTest/functions/check_game/dialog.php",//для кажого типа разные файлы обработчики
+        data: "data="+JSON.stringify(array_dialog),
+        success: function(data)
+        {
+          $('body').html(data);
+        }
+      }
+    );
+});

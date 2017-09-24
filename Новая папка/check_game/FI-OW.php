@@ -1,4 +1,3 @@
-<?php require "nav-link-result.php" ?>
 <?php
 require_once __DIR__."/../../functions/sql_connect.php";
 $plus = 0;
@@ -12,6 +11,7 @@ for($i = 0; $i < count($data); $i++)
 
 }
 //var_dump($result);
+echo "Правильных ответов ".$plus." из ".($plus + $minus);
 
 function check_and_print($data)
 {
@@ -43,7 +43,7 @@ function check_and_print($data)
             {
                 if($urls[$j] == $right_url )//стили для правильной картинки в правильном ответе : добавил id right_in_right
                 {
-                    echo "<div role=\"button\" style=\"border:5px solid #09ff00;\" id = \"right_in_right\" class=\"one-krop one-krop-bg-red btn-check\" data-id = \"".$answer['id']."\"><img src=\"../../" . $urls[$j] . "\" alt=\"\" class=\"img-responsive image active img-res\">
+                    echo "<div role=\"button\" style=\"border:5px solid green;\" id = \"right_in_right\" class=\"one-krop one-krop-bg-red btn-check\" data-id = \"".$answer['id']."\"><img src=\"../../" . $urls[$j] . "\" alt=\"\" class=\"img-responsive image active img-res\">
                     </div>";
                 }
                 else
@@ -55,7 +55,7 @@ function check_and_print($data)
 
             }
 
-            echo "   
+            echo"
               <div class=\"btn-block\"></div>
               <div class=\"center-block  select-word blue-button one-button\">".$answer["word"]."</div>
               <div class=\"btn-block\"></div>
@@ -85,12 +85,12 @@ function check_and_print($data)
             {
                 if($urls[$j] == $right_url )//стили для правильной картинки в НЕправильном ответе : добавил id right_in_warning
                 {
-                    echo "<div role=\"button\" style=\"border:5px solid #09ff00;\" id = \"right_in_warning\" class=\"one-krop one-krop-bg-red btn-check\" data-id = \"".$answer['id']."\"><img src=\"../../" . $urls[$j] . "\" alt=\"\" class=\"img-responsive image active img-res\">
+                    echo "<div role=\"button\" style=\"border:5px solid green;\" id = \"right_in_warning\" class=\"one-krop one-krop-bg-red btn-check\" data-id = \"".$answer['id']."\"><img src=\"../../" . $urls[$j] . "\" alt=\"\" class=\"img-responsive image active img-res\">
                     </div>";
                 }
                 else if($urls[$j] == $url )//стили для выбраной  картинки в НЕправильном ответе : добавил id checked_in_warning
                 {
-                    echo "<div role=\"button\" style=\"border:5px solid #ff0000;\" id = \"checked_in_warning\" class=\"one-krop one-krop-bg-red btn-check\" data-id = \"".$answer['id']."\"><img src=\"../../" . $urls[$j] . "\" alt=\"\" class=\"img-responsive image active img-res\">
+                    echo "<div role=\"button\" style=\"border:5px solid black;\" id = \"checked_in_warning\" class=\"one-krop one-krop-bg-red btn-check\" data-id = \"".$answer['id']."\"><img src=\"../../" . $urls[$j] . "\" alt=\"\" class=\"img-responsive image active img-res\">
                     </div>";
                 }
                 else
@@ -114,11 +114,12 @@ function check_and_print($data)
             </div>
             <div class=\"btn-block btn btn-success disabled\" style=\"cursor: default;\"></div>
             <br><br>
-            
-            ";
+            <?php require(\"parts/link-bottom.php\"); ?>
+            </body>
+            </html>";
 
 
         }
 
-}?>
-<?php require "result.php"; ?>
+}
+?>

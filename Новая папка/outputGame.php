@@ -37,9 +37,17 @@ function outputGame($type, $count, $table)
               <div class=\"btn-block\"></div>
               <div class=\"center-block  select-word blue-button one-button\">".$data[$i]["word"]."</div>
               <div class=\"btn-block\"></div>
+              <!--
+              <div class=\"btn-check-clear center-block \" style=\"display: flex;flex-direction: row;justify-content: space-around;align-items: center;\">
+                <button class=\"btn btn-success btn-lg btn-block FW-FW-left btn-clear\"><span class=\"fa fa-shower\" style=\"font-size: 17pt;\"></span> <span style=\"font-size: 17pt;\">Refresh</span></button><br>
+                <br><br><br><br>
+              </div>-->
             </div>
             <div class=\"btn-block btn btn-success disabled\" style=\"cursor: default;\"></div>
-            ";
+            <br><br>
+            <?php require(\"parts/link-bottom.php\"); ?>
+            </body>
+            </html>";
             }
             break;
             //end 1-st case
@@ -79,59 +87,7 @@ function outputGame($type, $count, $table)
             //end 2-st case
 
         case 'game_4w_4w':
-          /*
-            $answer = $mysqli->query("SELECT * FROM $table WHERE type = '$type' ORDER  BY rand() LIMIT $count");
-            while(($row = $answer->fetch_assoc()) != false )
-            {
-                $data[] = $row;
-            }
-            for($i = 0 ; $i < count($data); $i++)
-            {
-                echo"<div class=\"container\">
-                <div class=\"reading on array\" style=\"font-size: 0pt;\"><span class=\"type\">".$type.",</span><span class=\"type-game\">game_4w_4w,</span></div>
-                  <span class=\"after-append\"></span>
-                  <div class=\"FW-FW\">
-                    <div class=\"FW-FW-left\">
-                      <div class=\"center-block blue-button one-button left fw-fw\" data-id = \"".$data[$i]['id']."\">".$data[$i]['a1']."</div><div class=\"space-place\"></div>
-                      <div class=\"center-block blue-button one-button left fw-fw\" data-id = \"".$data[$i]['id']."\">".$data[$i]['a2']."</div><div class=\"space-place\"></div>
-                      <div class=\"center-block blue-button one-button left fw-fw\" data-id = \"".$data[$i]['id']."\">".$data[$i]['a3']."</div><div class=\"space-place\"></div>
-                      <div class=\"center-block blue-button one-button left fw-fw\" data-id = \"".$data[$i]['id']."\">".$data[$i]['a4']."</div><div class=\"space-place\"></div>
-                    </div>
-                    <div class=\"FW-FW-center\">
-                      <span class=\"fa fa-code-fork fa-3x fa-pulse FW-center\"></span>
-                    </div>
-                    <div class=\"FW-FW-right\">
-                      <div class=\"center-block blue-button one-button right fw-fw\" data-id = \"".$data[$i]['id']."\">".$data[$i]['q1']."</div><div class=\"space-place\"></div>
-                      <div class=\"center-block blue-button one-button right fw-fw\" data-id = \"".$data[$i]['id']."\">".$data[$i]['q2']."</div><div class=\"space-place\"></div>
-                      <div class=\"center-block blue-button one-button right fw-fw\" data-id = \"".$data[$i]['id']."\">".$data[$i]['q3']."</div><div class=\"space-place\"></div>
-                      <div class=\"center-block blue-button one-button right fw-fw\" data-id = \"".$data[$i]['id']."\">".$data[$i]['q4']."</div><div class=\"space-place\"></div>
-                    </div>
-                  </div><br><br>
-                  <!--<div class=\"btn-check-clear center-block\" id=\"check\" style=\"display: flex;flex-direction: row;justify-content: space-around;align-items: center;\">
-                    <button class=\"btn btn-success btn-lg btn-block center-block btn-clear\">
-                      <span class=\"fa fa-shower\"></span> Refresh
-                    </button><br>
-                  </div>-->
-                  <div class=\"container-fluid info-fw-fw-".$i."\">
-                    <div class=\"panel panel-info\">
-                      <div class=\"panel-heading\" style=\"font-size: 12pt; text-align: center;\">Select the word on the left side, then select the right word on the right side, then a couple of these words will disappear. Do the same until all the words on the left and right disappear.</div>
-                    </div>
-                  </div>
-                  <div class=\"container-fluid success-fw-fw-".$i."\" style=\"display: none;\">
-                    <div class=\"panel panel-success\">
-                      <div class=\"panel-heading\" style=\"font-size: 15pt; text-align: center;\"><span class=\"fa fa-arrow-circle-down\"></span> Good! Let's continue <span class=\"fa fa-arrow-circle-down\"></span></div>
-                    </div>
-                  </div>
-                </div>
 
-                <br><br>
-                <div class=\"btn btn-danger btn-block disabled\" style=\"cursor: default;\"></div>
-                <br><br>
-                ";
-
-            }
-            break;//end 3-st case
-            */
             $answer = $mysqli->query("SELECT * FROM $table WHERE type = '$type' ORDER  BY rand() LIMIT $count");
             while(($row = $answer->fetch_assoc()) != false )
             {
@@ -172,7 +128,12 @@ function outputGame($type, $count, $table)
                     echo" <div class=\"center-block blue-button one-button right fw-fw\" data-id = \"".$data[$i]['id']."\">".$q[$j]."</div><div class=\"space-place\"></div>";
                 }
                       echo"
-                  </div><br><br><br>
+                  </div><br><br>
+                  <!--<div class=\"btn-check-clear center-block\" id=\"check\" style=\"display: flex;flex-direction: row;justify-content: space-around;align-items: center;\">
+                    <button class=\"btn btn-success btn-lg btn-block center-block btn-clear\">
+                      <span class=\"fa fa-shower\"></span> Refresh
+                    </button><br>
+                  </div>-->
                   <div class=\"container-fluid info-fw-fw-".$i."\">
                     <div class=\"panel panel-info\">
                       <div class=\"panel-heading\" style=\"font-size: 12pt; text-align: center;\">Select the word on the left side, then select the right word on the right side, then a couple of these words will disappear. Do the same until all the words on the left and right disappear.</div>

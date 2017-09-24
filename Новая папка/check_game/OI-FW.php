@@ -1,4 +1,3 @@
-<?php require "nav-link-result.php" ?>
 <?php
 require_once __DIR__."/../sql_connect.php";
 $data = json_decode($_GET['data'], true);
@@ -10,7 +9,7 @@ for($i = 0; $i < count($data); $i++)
 }
 
 
-//echo "Правильных ответов ".$plus." из ".($plus + $minus);
+echo "Правильных ответов ".$plus." из ".($plus + $minus);
 function check_and_print($data)
 {
     global $plus;
@@ -92,4 +91,3 @@ function check_and_print($data)
 }
 
 ?>
-<?php require "result.php"; ?>
