@@ -29,6 +29,13 @@
       	    </div>
       	  </a>
 
+          <a href="categories/Body_Parts/b_EtW.php" class="a-none">
+            <div class="panel panel-danger cursor-pointer hover-border">
+              <div class="panel-heading"><span class="fa fa-connectdevelop fa-spin fa-2x">&nbsp;&nbsp;</span>Enter the word</div>
+              <div class="panel-body">Review the image and enter the word.</div>
+            </div>
+          </a>
+
         </div>
       </div>
   	</div>
