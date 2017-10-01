@@ -4,7 +4,7 @@
   <div class="success"><? echo $plus ?></div>
   <div class="warning"><? echo $minus ?></div>
 </div>
-<script type="text/javascript" src="../../js/append-percent.js"></script>
+<script type="text/javascript" src="/MedicalEnglishTest/js/append-percent.js"></script>
 <div class="volume">
 <?php $summa = $plus + $minus; $percent = 100/$summa*$plus ?>
 <?php
@@ -97,7 +97,7 @@
   <div role="button" class="resulting"><span class="small-letter-name center-block padding-left-right center-block">Result</span></div>
   <div role="button" class="continuing"><span class="small-letter-name center-block padding-left-right center-block">Continue</span></div>
 </div>
-<script type="text/javascript" src="../../js/check.js"></script>
+<script type="text/javascript" src="/MedicalEnglishTest/js/check.js"></script>
 <?php require("../../parts/link-bottom.php"); ?>
 </body>
 </html>
